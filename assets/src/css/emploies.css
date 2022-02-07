@@ -1,0 +1,16 @@
+.center-title {
+  position: relative;
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: center;
+}
+.explain-standard-container.center-dispo {
+  position: relative;
+  width: 70%;
+  margin: 50px auto 100px auto;
+  display: block;
+  text-align: center;
+}
+.explain-standard-text-wrapper.emploie-adaptation h3 {
+  margin: 10px auto;
+}

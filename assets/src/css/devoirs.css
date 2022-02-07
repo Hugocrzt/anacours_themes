@@ -1,0 +1,9 @@
+.big-text{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.explain-standard-head-title{
+    width: 80%;
+    margin: 75px auto -50px auto;
+    text-align: center;
+}

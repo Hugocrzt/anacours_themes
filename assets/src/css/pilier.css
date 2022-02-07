@@ -1,0 +1,465 @@
+.pilier-landing-bandeau img {
+  width: 45%;
+}
+.btn-demande-devis {
+  padding: 15px 30px;
+  background-color: #4251ff;
+  color: white;
+  margin-top: 0px;
+  border-radius: 100px;
+  width: fit-content;
+  border: 1px solid #4251ff;
+  transition: all 0.3s;
+}
+.btn-demande-devis:hover {
+  background-color: #4252ff00;
+  color: #4251ff;
+}
+.pilier-landing-adaptation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 0;
+  width: 45%;
+  padding-left: 30%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background: linear-gradient(295deg, #f4f7ff 75%, rgba(0, 0, 0, 0) 75%);
+}
+.pilier-landing-adaptation .home-landing-bandeau-title-container {
+  width: 100%;
+}
+.pilier-landing-adaptation h1 {
+  margin: 0px 0px 20px 0px;
+  font-size: 4vw;
+}
+.pillier-sous-titre {
+  margin: 0;
+  font-size: 1.65rem;
+  font-weight: 900;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+.pilier-landing-adaptation p {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.pilier-landing-background-image-adaptation {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0vw;
+  object-fit: cover;
+  object-position: left;
+}
+.container-bandeau-matiere {
+  position: relative;
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.wrapperone-bandeau-matiere {
+  width: 45%;
+}
+.notre-plus-block {
+  position: relative;
+  width: 90%;
+  border-radius: 20px;
+  border: 2px dashed #4251ff;
+  padding: 25px;
+  margin-top: 50px;
+}
+.notre-plus-block p:first-child {
+  position: absolute;
+  top: 0;
+  background-color: #4251ff;
+  padding: 5px 10px;
+  border-radius: 50px;
+  color: white;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+}
+.wrappertwo-bandeau-matiere {
+  position: relative;
+  width: 40%;
+  padding-top: 5px;
+}
+.wrappertwo-bandeau-matiere h3 {
+  font-size: 1.95rem;
+  font-weight: 600;
+}
+.matiere-grid {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.matiere-grid .matiere-block {
+  width: 25%;
+  height: 100%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 15px 0;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4252ff00;
+  transition: all 0.3s;
+  /*box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.11);*/
+}
+.matiere-grid .matiere-block:hover {
+  border: 1px solid #4251ff;
+}
+.matiere-grid .matiere-block a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.matiere-grid .matiere-block p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.matiere-grid .matiere-block img {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+.autre-accompagnement-container {
+  position: relative;
+  width: 85%;
+  margin: auto;
+  padding: 100px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.199);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.autre-accompagnement-container h2 {
+  width: 31%;
+  font-size: 1.95rem;
+  line-height: 1.3em;
+  text-transform: none;
+  margin: 0;
+}
+.autre-accompagnement-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.11);
+  align-items: center;
+  overflow: hidden;
+  width: 32%;
+  background-color: white;
+  border: 1px solid #009fde00;
+  transition: all 0.3s;
+}
+.autre-accompagnement-wrapper:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.11);
+  border: 1px solid #009fde;
+}
+.autre-accompagnement-image-block {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.autre-accompagnement-image-block img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  object-position: 20%;
+}
+.autre-accompagnement-text-block {
+  width: 50%;
+  padding: 20px 20px;
+}
+.autre-accompagnement-text-block h3 {
+  font-size: 1.75vw;
+  text-transform: uppercase;
+  color: #009fde;
+  margin: 10px 0;
+}
+.autre-accompagnement-text-block p {
+  margin-bottom: 20px;
+}
+.autre-accompagnement-text-block img {
+  width: auto;
+  height: auto;
+}
+.home-enseignants-container.pillier-adaptation {
+  width: 85%;
+  padding: 25px 7.5% 50px 7.5%;
+}
+.home-enseignants-container.pillier-adaptation h2 {
+  text-align: left;
+  font-size: 3vw;
+}
+.slider-container-avis-enseignants {
+  width: 80%;
+  border: dashed #4251ff 2px;
+  border-radius: 20px;
+  padding: 5% 10%;
+  display: block;
+  margin-top: 50px;
+  position: relative;
+}
+.slider-avis-enseignants-label {
+  width: fit-content;
+  position: absolute;
+  background: #fed000;
+  border-radius: 20px;
+  padding: 2.5px 10px;
+  font-size: 0.8rem;
+  top: 0;
+  left: 15px;
+  transform: translateY(-50%);
+}
+.swiper-pointer-events {
+  overflow: hidden;
+}
+.swiper-two .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.avis-enseignants-pres-container {
+  margin-right: 40px;
+  position: relative;
+}
+.avis-enseignants-box-image-wrapper {
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.avis-enseignants-box-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+.avis-enseignants-box-name-wrapper {
+  font-size: 1.25rem;
+  font-family: "Texta";
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.avis-enseignants-comment-container p {
+  margin: auto !important;
+  padding: 0;
+  font-size: 1.3rem;
+  text-transform: none;
+  color: black;
+  margin: 0;
+  font-weight: 500;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .pilier-landing-adaptation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 0;
+    width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: linear-gradient(0deg, #f4f7ff 75%, rgba(0, 0, 0, 0) 75%);
+  }
+  .pilier-landing-adaptation h1 {
+    margin: 50px 0px 20px 0px;
+    font-size: 12vw;
+  }
+  .pillier-sous-titre {
+    margin-bottom: 0px;
+  }
+  .home-landing-background-image .pilier-landing-background-image-adaptation {
+    height: 25% !important;
+  }
+  .btn-demande-devis {
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .container-bandeau-matiere {
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .wrapperone-bandeau-matiere {
+    width: 100%;
+  }
+  .notre-plus-block {
+    width: 80%;
+    padding: 25px 10%;
+    margin-bottom: 25px;
+  }
+  .wrappertwo-bandeau-matiere {
+    width: 100%;
+  }
+  .matiere-grid .matiere-block {
+    width: 40%;
+  }
+  .autre-accompagnement-container {
+    flex-direction: column;
+    padding: 75px 0;
+    border-top: 0;
+  }
+  .autre-accompagnement-container h2 {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .autre-accompagnement-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .autre-accompagnement-image-block {
+    width: 33%;
+  }
+  .autre-accompagnement-text-block {
+    width: 70%;
+  }
+  .autre-accompagnement-image-block img {
+    width: 500%;
+    height: 100%;
+    transform: translate(-25%, 4px);
+  }
+  .autre-accompagnement-text-block h3 {
+    font-size: 6vw;
+  }
+  .home-enseignants-container.pillier-adaptation {
+    width: 85%;
+    padding: 30px 7.5%;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-text {
+    overflow: hidden;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-wrapper {
+    flex-direction: column;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-image {
+    margin-bottom: 20px;
+  }
+  .home-enseignants-container.pillier-adaptation h2 {
+    font-size: 9vw;
+  }
+  .slider-container-avis-enseignants {
+    width: 78.5%;
+    margin-bottom: 60px;
+  }
+  .avis-enseignants-box-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+  }
+}
+@media (max-width: 767px) {
+  .pilier-landing-adaptation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 0;
+    width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: linear-gradient(0deg, #f4f7ff 75%, rgba(0, 0, 0, 0) 75%);
+  }
+  .pilier-landing-adaptation h1 {
+    margin: 50px 0px 20px 0px;
+    font-size: 12vw;
+  }
+  .pillier-sous-titre {
+    margin-bottom: 0px;
+  }
+  .home-landing-background-image .pilier-landing-background-image-adaptation {
+    height: 25% !important;
+  }
+  .btn-demande-devis {
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .container-bandeau-matiere {
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  .wrapperone-bandeau-matiere {
+    width: 100%;
+  }
+  .notre-plus-block {
+    width: 80%;
+    padding: 25px 10%;
+    margin-bottom: 25px;
+  }
+  .wrappertwo-bandeau-matiere {
+    width: 100%;
+  }
+  .matiere-grid .matiere-block {
+    width: 40%;
+  }
+  .autre-accompagnement-container {
+    flex-direction: column;
+    padding: 75px 0;
+    border-top: 0;
+  }
+  .autre-accompagnement-container h2 {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .autre-accompagnement-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .autre-accompagnement-image-block {
+    width: 33%;
+  }
+  .autre-accompagnement-text-block {
+    width: 70%;
+  }
+  .autre-accompagnement-image-block img {
+    width: 500%;
+    height: 100%;
+    transform: translate(-25%, 4px);
+  }
+  .autre-accompagnement-text-block h3 {
+    font-size: 6vw;
+  }
+  .home-enseignants-container.pillier-adaptation {
+    width: 85%;
+    padding: 30px 7.5%;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-text {
+    overflow: hidden;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-wrapper {
+    flex-direction: column;
+  }
+  .home-enseignants-container.pillier-adaptation .home-enseignants-image {
+    margin-bottom: 20px;
+  }
+  .home-enseignants-container.pillier-adaptation h2 {
+    font-size: 9vw;
+  }
+  .slider-container-avis-enseignants {
+    width: 78.5%;
+    margin-bottom: 60px;
+  }
+  .avis-enseignants-box-image-wrapper {
+    width: 15vw;
+    height: 15vw;
+  }
+}

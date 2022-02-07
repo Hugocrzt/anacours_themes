@@ -1,0 +1,42 @@
+.landing-legal-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.landing-legal-container {
+  position: relative;
+  width: 60%;
+  margin: auto;
+}
+.paragraphe-legal-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.paragraphe-legal-container {
+  position: relative;
+  width: 60%;
+  margin: auto auto 150px auto;
+}
+.paragraphe-legal-container h2 {
+  text-transform: none;
+  font-weight: 800;
+}
+.paragraphe-legal-container h4 {
+  font-size: 2vw;
+  font-family: "Texta";
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.paragraphe-legal-container ul {
+  font-size: 1.25rem;
+  font-family: "Texta";
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.paragraphe-legal-container a {
+  color: black;
+  text-decoration: underline;
+}

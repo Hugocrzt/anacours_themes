@@ -1,0 +1,188 @@
+.explain-standard-container.invert-dispo.landing-standar-section {
+  width: 90%;
+  margin: 50px auto;
+}
+.explain-standard-container.invert-dispo.landing-standar-section h1 {
+  font-size: 4.5vw;
+  margin: 0 0 20px 0;
+}
+.recrutement-types-profils-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.recrutement-types-profils-container h2 {
+  width: auto;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.recrutement-types-profils-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.recrutement-types-profils-item {
+  position: relative;
+  width: 22.5%;
+  display: flex;
+  flex-direction: column;
+}
+.recrutement-types-profils-item-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.recrutement-types-profils-container .cta-yellow {
+  margin: 50px auto 100px auto;
+}
+.recrutement-post-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+.recrutement-post-container h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.recrutement-post-wrapper {
+  position: relative;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.recrutment-post-item {
+  position: relative;
+  width: 40%;
+  padding: 30px;
+  border: dashed 2px #4251ff;
+  border-radius: 20px;
+}
+.recrutment-post-item h3 {
+  margin: 0 0 20px 0;
+}
+.recrutment-post-cta {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.recrutement-video-container {
+  position: relative;
+  width: 90%;
+  margin: 100px auto;
+}
+.recrutement-video-container h2 {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 20px auto;
+}
+.recrutement-video-container p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 50px auto;
+}
+.recrutement-swiper-nav-container {
+  position: relative;
+  width: 25%;
+  margin: 40px auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.recrutement-swiper-nav-container .prev-ctrl {
+  position: absolute;
+  width: auto;
+  height: 7vh;
+  margin-right: auto;
+  top: -20px;
+  left: 0;
+  transform: rotate(0deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+.recrutement-swiper-nav-container .next-ctrl {
+  position: absolute;
+  width: auto;
+  height: 7vh;
+  margin-left: auto;
+  top: -20px;
+  right: 0;
+  transform: rotate(180deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+.recrutement-swiper-nav-container .swiper-pagination {
+  position: relative !important;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.english-advantage-arguments-space.recrutement-adjustment
+  .english-advantage-argument-item
+  img {
+  width: 55%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .explain-standard-container.invert-dispo.landing-standar-section {
+    margin: 100px auto;
+  }
+  .explain-standard-container.invert-dispo.landing-standar-section h1 {
+    font-size: 12vw;
+  }
+  .recrutement-types-profils-wrapper {
+    flex-direction: column;
+  }
+  .recrutement-types-profils-item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .recrutement-types-profils-container .cta-yellow {
+    margin: 0px auto 100px 0;
+  }
+  .recrutement-video-container h2 {
+    width: 100%;
+  }
+  .recrutement-video-container p {
+    width: 100%;
+  }
+  .swiper-three .swiper-slide {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .explain-standard-container.invert-dispo.landing-standar-section {
+    margin: 100px auto;
+  }
+  .explain-standard-container.invert-dispo.landing-standar-section h1 {
+    font-size: 12vw;
+  }
+  .recrutement-types-profils-wrapper {
+    flex-direction: column;
+  }
+  .recrutement-types-profils-item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .recrutement-types-profils-container .cta-yellow {
+    margin: 0px auto 100px 0;
+  }
+  .recrutement-video-container h2 {
+    width: 100%;
+  }
+  .recrutement-video-container p {
+    width: 100%;
+  }
+  .swiper-three .swiper-slide {
+    width: 100% !important;
+  }
+}

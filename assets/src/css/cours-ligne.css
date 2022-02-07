@@ -1,0 +1,11 @@
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-arguments-container.online-adaptation{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 767px) {
+    .home-arguments-container.online-adaptation{
+        margin-top: 0px;
+    }
+}

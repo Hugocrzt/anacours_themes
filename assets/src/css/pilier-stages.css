@@ -1,0 +1,105 @@
+.standar-listing-container.pilier-stages-adaptation{
+    width: 85%;
+    padding: 5% 7.5%;
+}
+.pilier-stages-intensifs-agences-listing-container{
+    position: relative;
+    display: block;
+    width: 85%;
+    margin: 50px auto;
+}
+.pilier-stages-intensifs-agences-listing-container h2{
+    position: relative;
+    width: fit-content;
+    margin: 50px auto 20px auto;
+}
+.pilier-stages-intensifs-agences-listing-wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.agence-list-space{
+    position: relative;
+    width: 35%;
+}
+.stage-list-space{
+    position: relative;
+    width: 55%;
+}
+.home-map-list-wrapper.stage-pilier-adaptation{
+    width: 100%;
+    max-height: 55vh;
+    overflow: hidden;
+}
+.home-map-list-wrapper.stage-pilier-adaptation .home-map-list-items-wrapper{
+    overflow: scroll;
+}
+.home-map-searchbar-wrapper.stage-pilier-adaptation{
+    width: 100%;
+}
+.list-landing-stages-agence-item-text-wrapper.head-list-pilier-stage-adaptation{
+    border: 1px solid #3C47CE;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+.stage-list-space .list-landing-stages-agence-item.stage-pilier-adaptation{
+    width: 100%;
+}
+.autre-accompagnement-container.without-border{
+    border-top: 0px solid rgba(0, 0, 0, 0.199);
+}
+.recrutement-post-container.stage-intensif-adaptation{
+    margin-top: 50px;
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .recrutement-post-wrapper{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .recrutment-post-item{
+        width: calc(100% - 60px) !important;
+        margin-bottom: 20px;
+    }
+    .recrutment-post-item .cta-purple{
+        margin-right: 10px;
+    }
+    .cta-transparent{
+        margin-top: 0;
+    }
+    .pilier-stages-intensifs-agences-listing-wrapper{
+        flex-direction: column;
+    }
+    .agence-list-space{
+        width: 100%;
+    }
+    .stage-list-space{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .recrutement-post-wrapper{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .recrutment-post-item{
+        width: calc(100% - 60px) !important;
+        margin-bottom: 20px;
+    }
+    .recrutment-post-item .cta-purple{
+        margin-right: 10px;
+    }
+    .cta-transparent{
+        margin-top: 0;
+    }
+    .pilier-stages-intensifs-agences-listing-wrapper{
+        flex-direction: column;
+    }
+    .agence-list-space{
+        width: 100%;
+    }
+    .stage-list-space{
+        display: none;
+    }
+}

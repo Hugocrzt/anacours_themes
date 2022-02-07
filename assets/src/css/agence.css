@@ -1,0 +1,81 @@
+.lower-title {
+  text-transform: lowercase;
+}
+.home-landing-bandeau.about-adaptation.agence-adaptation h1 {
+  margin: 0 0 0px 0;
+}
+.home-landing-bandeau.about-adaptation.agence-adaptation h2 {
+  font-size: 1.65rem;
+}
+.home-landing-bandeau.about-adaptation.agence-adaptation
+  .home-landing-background-image {
+  width: 65%;
+}
+.explain-standard-text-inter-col {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.explain-standard-text-inter-col0ne {
+  margin-right: 50px;
+}
+.explain-standard-text-inter-col0ne h3 {
+  margin: 10px 0;
+}
+.explain-standard-text-wrapper.agence-adaptation {
+  width: 45%;
+}
+.explain-standard-image-wrapper.agence-adaptation {
+  width: 45%;
+}
+.explain-standard-text-inter-colTwo h3 {
+  margin: 10px 0;
+}
+.explain-standard-text-inter-colTwo h4 {
+  font-size: 1.25rem;
+  font-family: "Texta";
+  font-weight: 600;
+  line-height: 1.5em;
+  text-decoration: none;
+  margin: 0;
+}
+.cta-purple.fullwidth {
+  width: calc(100% - 50px);
+  margin-top: 30px;
+  text-align: center;
+}
+.agences-map-container.with-margin {
+  margin: 100px auto;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .agences-map-container.with-margin {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .agences-cards-container {
+    width: 90%;
+  }
+  .agences-cards-wrapper {
+    flex-direction: column;
+  }
+  .agences-card-item {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .agences-map-container.with-margin {
+    width: 90%;
+    margin: 50px auto;
+  }
+  .agences-cards-container {
+    width: 90%;
+  }
+  .agences-cards-wrapper {
+    flex-direction: column;
+  }
+  .agences-card-item {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+  }
+}
