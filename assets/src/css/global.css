@@ -1,13 +1,11 @@
-.line-intesection {
+.line-intersection {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 0.5em 0;
+  margin: 0;
   padding: 0;
-  width:90%;
-  margin:0 auto;
-  margin-top:60px;
+  width:100%;
 }
 
 /* Tablette */

@@ -30,39 +30,48 @@
 			<div class="home-solutions-container">
 				<h2><span class="split-color-text">Nos solutions</span> pour réussir</h2>
 				<div class="home-solutions-wrapper">
-					<div class="home-solution-box">
-						<div class="home-solution-image-wrapper">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-particuliers-photo-of-woman-writing-on-blackboard-3184644@2x.jpg" alt="">
-						</div>
-						<h3>Cours Particuliers</h3>
-						<p>Dispensés par des enseignants recrutés pour leur pédagogie et leur expertise, nos cours particuliers s’adaptent à chaque élève, c’est la solution sur mesure pour réussir.</p>
-						<a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
-							Découvrir
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
-						</a>
-					</div>
-					<div class="home-solution-box">
-						<div class="home-solution-image-wrapper">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/stages-intensifs-pexels-ivan-samkov-5676741@2x.jpg" alt="">
-						</div>
-						<h3>Stages Intensifs</h3>
-						<p>Pendant les vacances scolaires ou à l’approche des examens, nos stages intensifs en petits groupes permettent sur une courte période de travailler une matière en profondeur.</p>
-						<a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">
-							Découvrir
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
-						</a>
-					</div>
-					<div class="home-solution-box">
-						<div class="home-solution-image-wrapper">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-en-ligne-pexels-artem-podrez-4492188@2x.jpg" alt="">
-						</div>
-						<h3>Cours en ligne</h3>
-						<p>L’accompagnement scolaire en ligne pour les élèves et leur famille : cours, exercices, service de tutorat pour s’entraîner et réviser à son rythme au quotidien ou pendant les vacances.</p>
-						<a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-en-ligne/">
-							Découvrir
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
-						</a>
-					</div>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/"">
+            <div class="home-solution-box">
+              <div class="home-solution-image-wrapper">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-particuliers-photo-of-woman-writing-on-blackboard-3184644@2x.jpg" alt="">
+              </div>
+              <h3>Cours Particuliers</h3>
+              <p>Dispensés par des enseignants recrutés pour leur pédagogie et leur expertise, nos cours particuliers s’adaptent à chaque élève, c’est la solution sur mesure pour réussir.</p>
+              <a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
+                Découvrir
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
+              </a>
+            </div>
+          </a>
+
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">
+            <div class="home-solution-box">
+              <div class="home-solution-image-wrapper">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/stages-intensifs-pexels-ivan-samkov-5676741@2x.jpg" alt="">
+              </div>
+              <h3>Stages Intensifs</h3>
+              <p>Pendant les vacances scolaires ou à l’approche des examens, nos stages intensifs en petits groupes permettent sur une courte période de travailler une matière en profondeur.</p>
+              <a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">
+                Découvrir
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
+              </a>
+            </div>
+          </a>
+
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-en-ligne/">
+            <div class="home-solution-box">
+              <div class="home-solution-image-wrapper">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-en-ligne-pexels-artem-podrez-4492188@2x.jpg" alt="">
+              </div>
+              <h3>Cours en ligne</h3>
+              <p>L’accompagnement scolaire en ligne pour les élèves et leur famille : cours, exercices, service de tutorat pour s’entraîner et réviser à son rythme au quotidien ou pendant les vacances.</p>
+              <a class="transparent-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-en-ligne/">
+                Découvrir
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
+              </a>
+            </div>
+          </a>
+
 				</div>
 			</div>
 		</section>
@@ -74,7 +83,8 @@
 					</div>
 					<div class="bandeau-calltoaction-text">
 						<h2>Découvrir la solution</h2>
-						<h2>qui correspond aux besoins de votre enfant.</h2>
+						<h2>qui correspond aux besoins<br>
+             de votre enfant.</h2>
 					</div>
 					<div class="bandeau-calltoaction-btns">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>agences/">Trouver mon agence</a>
@@ -306,7 +316,7 @@
 									</p>
 								</div>
 							</div>
-							<div class="swiper-pagination"></div> 
+							<div class="swiper-pagination"></div>
 						<div>
 					</div>
 				</div>
@@ -377,10 +387,9 @@
 					<div class="next-ctrl">
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
 					</div>
-					<div class="swiper-pagination"></div> 
+					<div class="swiper-pagination"></div>
 				</div>
 		</section>
 	</main>
 </div>
 <?php get_footer();
-

@@ -1,4 +1,5 @@
 @import "../library/fonts/fonts.css";
+@import "global.css";
 @import "home.css";
 @import "genere.css";
 @import "pilier.css";
