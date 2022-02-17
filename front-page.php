@@ -75,6 +75,7 @@
 				</div>
 			</div>
 		</section>
+
 		<section>
 			<div class="bandeau-calltoaction-container">
 				<div class="bandeau-calltoaction-wrapper">
@@ -98,7 +99,7 @@
 				<h2><span class="split-color-text">40 Agences</span> en France</h2>
 				<p>trouver l'agence la plus proche de chez vous</p>
 				<div class="home-map-searchbar-wrapper">
-					<input type="text" placeholder="Vile, code postal">
+					<input type="text" placeholder="Ville, code postal">
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
 				</div>
@@ -109,7 +110,7 @@
 					<div class="home-map-list-wrapper">
 						<div class="home-map-list-items-wrapper">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Ile-de-france</h3>
+								<h3>Île-de-france</h3>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
 							</a>
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
