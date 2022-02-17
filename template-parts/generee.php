@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Generee
@@ -183,7 +183,7 @@ get_header(); ?>
 									</p>
 								</div>
 							</div>
-							<div class="swiper-pagination"></div> 
+							<div class="swiper-pagination"></div>
 						<div>
 					</div>
 				</div>
@@ -232,7 +232,7 @@ get_header(); ?>
 				<h2><span class="split-color-text">40 Agences</span> en France</h2>
 				<p>trouver l'agence la plus proche de chez vous</p>
 				<div class="home-map-searchbar-wrapper">
-					<input type="text" placeholder="Vile, code postal">
+					<input type="text" placeholder="Ville, code postal">
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
 				</div>

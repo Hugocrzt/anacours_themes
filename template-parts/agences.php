@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Agences
@@ -14,7 +14,7 @@ get_header(); ?>
                 <p>Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</p>
                 <div class="agences-map-wraper">
                     <div class="home-map-searchbar-wrapper">
-                        <input type="text" placeholder="Vile, code postal">
+                        <input type="text" placeholder="Ville, code postal">
                         <button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
                         <button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
                     </div>

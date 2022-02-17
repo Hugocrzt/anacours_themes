@@ -19,7 +19,7 @@
 						<button>Rechercher</button>
 					</div>
 					<div class="home-landing-bandeau-searchbar-mobile">
-						<input type="text" placeholder="Vile, code postal">
+						<input type="text" placeholder="Ville, code postal">
 						<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
 					</div>
 				</div>

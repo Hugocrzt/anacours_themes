@@ -14,9 +14,9 @@ h2 {
   font-size: 3vw;
   font-family: "Texta";
   text-transform: uppercase;
-  /* font-weight: 900; */
+  font-weight: 900;
   /* font-weight 800 & 700 ne changent rien */
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 1.05em;
   color: #323f48;
 }
@@ -211,7 +211,7 @@ img {
 .home-solution-box p {
   width: 85%;
   padding: 0 7.5%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   transition: all 0.3s;
 }
 .home-solution-box:hover p {
@@ -477,7 +477,7 @@ img {
 /*SECTION5*/
 .home-arguments-container {
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px 0 50px 0;
   width: 100%;
   background-color: #cceeff;
@@ -1168,14 +1168,15 @@ p {
   .home-landing-bandeau-title-container {
     position: relative;
     width: 85%;
-    margin: 25vh auto 0 auto;
+    margin: 27vh auto 0 auto;
   }
+
   .home-landing-bandeau .home-landing-bandeau-title-container img {
     position: relative !important;
     width: 70% !important;
     height: auto !important;
     z-index: 1 !important;
-    margin-bottom: 12.5px !important;
+    margin-bottom: 30px !important;
     right: auto !important;
   }
   .home-landing-bandeau-text-wrapper {
@@ -1185,7 +1186,7 @@ p {
     margin-right: auto;
     padding-top: 75px;
     padding-left: 0;
-    background: linear-gradient(0deg, #cceeff 40%, rgba(0, 0, 0, 0) 40%);
+    background: linear-gradient(0deg, #cceeff 42%, rgba(0, 0, 0, 0) 40%);
     background-size: contain;
   }
   .home-landing-bandeau-text-wrapper p {
@@ -1215,7 +1216,7 @@ p {
     font-size: 1.65rem;
   }
   .bandeau-calltoaction-container {
-    margin: 75px auto;
+    margin: 20px auto;
   }
   .home-landing-bandeau-search-wrapper {
     position: relative;
@@ -1225,7 +1226,7 @@ p {
     width: 85%;
     height: auto;
     background: #cceeff;
-    padding: 50px 7.5%;
+    padding: 25px 7.5%;
   }
   .home-landing-bandeau-search-wrapper p {
     display: none;
@@ -1241,7 +1242,7 @@ p {
     border-radius: 100px;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    border: 1px solid #777777;
   }
   .home-landing-bandeau-searchbar-mobile input {
     padding: 20px 20px;
@@ -1273,7 +1274,7 @@ p {
   }
   .home-solution-box {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
   }
   .bandeau-calltoaction-wrapper {
     padding: 35px 0;

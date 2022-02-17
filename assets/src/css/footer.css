@@ -133,3 +133,11 @@ footer {
 .bottom-footer-legal a:hover {
   opacity: 0.5;
 }
+
+
+@media (max-width: 767px) {
+  .footer-column-cta a:first-child {
+
+    padding: 20px 20px;
+  }
+}
