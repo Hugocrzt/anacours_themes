@@ -1,3 +1,5 @@
+
+
 .tarifs-container {
   width: 90%;
   margin-left: auto;
@@ -19,7 +21,7 @@
   flex-wrap: wrap;
   overflow: hidden;
 
-  width: 55%;
+  width: 65%;
   height: 455px;
 
   align-items: flex-start;
@@ -49,9 +51,9 @@
   text-align: left;
   max-width: 360px;
   list-style-type: none;
-      font-size: 1.25rem;
-    font-family: "Texta";
-    font-weight: 400;
+  font-size: 1.25rem;
+  font-family: "Texta";
+  font-weight: 400;
 }
 
 .row-tarif-liste li:before {
@@ -60,13 +62,61 @@
   margin-right: 7px;
 }
 
-
-
 .col-tarif-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 35%;
   height: auto;
+}
+
+.moyen-paiment-container {
+  /* position: relative; */
+  width: 90%;
+  margin: 100px auto;
+}
+.moyen-paiement-wrapper {
+  /* position: relative; */
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+.moyen-paiement-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.moyen-paiement-item {
+  /* position: relative; */
+  width: 20%;
+}
+
+.moyen-paiement-other {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  width: 50%;
+}
+.rectangle {
+  height: 150px;
+  width: 280px;
+  background-color: salmon;
+
+  margin-right: 50px;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
 }
