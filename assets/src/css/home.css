@@ -14,7 +14,9 @@ h2 {
   font-size: 3vw;
   font-family: "Texta";
   text-transform: uppercase;
-  font-weight: 900;
+  /* font-weight: 900; */
+  /* font-weight 800 & 700 ne changent rien */
+  font-weight: 600;
   line-height: 1.05em;
   color: #323f48;
 }
@@ -177,6 +179,12 @@ img {
   background-color: white;
   transition: background-color 0.3s;
 }
+.home-solution-text-wrapper {
+  text-overflow: ellipsis;
+  max-height: 114px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
 .home-solution-box:hover {
   background-color: #009fde;
 }
@@ -256,7 +264,7 @@ img {
 .bandeau-calltoaction-wrapper {
   position: relative;
   width: 85%;
-min-height: 170px;
+  min-height: 170px;
   height: auto;
   margin: auto;
   /* padding: 50px 0; */
@@ -370,6 +378,7 @@ min-height: 170px;
 .home-map-searchbar-wrapper {
   width: 65%;
   margin: 50px auto;
+  margin-top:25px;
   overflow: hidden;
   border-radius: 100px;
   display: flex;
@@ -705,7 +714,7 @@ min-height: 170px;
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide {
   position: relative;
-  height: 90vh;
+  height: 55vh;
   width: 23.01vw !important;
   display: flex;
   flex-direction: column;
