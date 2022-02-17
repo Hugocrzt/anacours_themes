@@ -8,7 +8,7 @@ get_header(); ?>
 <div>
     <main>
 		<section>
-            <div class="home-landing-bandeau pilier-landing-bandeau">
+      <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
 						<h1>Cours particuliers <span class="split-color-text">à domicile</span></h1>
@@ -19,7 +19,7 @@ get_header(); ?>
 				</div>
 				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/pexels-gabby-k-6237928-scaled.jpg" alt="">
 			</div>
-        </section>
+    </section>
         <section>
 			<div class="container-bandeau-matiere">
 				<div class="wrapperone-bandeau-matiere">

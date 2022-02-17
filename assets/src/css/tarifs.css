@@ -1,0 +1,40 @@
+.tarifs-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container-ligne {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-tarif-liste {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:70%;
+  max-height:300px;
+
+}
+
+.col {
+  display:flex;
+  flex-direction:column;
+}
+.col p {
+  width:50%;
+  overflow: hidden;
+}
+.col ul {
+  width:50%;
+  text-align: left;
+}
+
+.col-tarif-image {
+  display: flex;
+  flex-direction: column;
+  width:30%
+}
