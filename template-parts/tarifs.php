@@ -27,54 +27,57 @@ get_header(); ?>
           <h2>Les tarifs</h2>
           <div class="container-ligne">
             <div class="row-tarif-liste">
-              <div class="col">
+
                 <p>Les tarifs sont établis en fonction de  </p>
-                <ul>
+
                   <li>la classe de l'élève</li>
                   <li>le lieu où sont dispensés les cours,</li>
                   <li>le nombre d'heures de cours commandées</li>
-                </ul>
-              </div>
 
 
-              <div class="col">
-                <p>Tarifs des cours à domicile  </p>
-                <ul>
+
+
+
+                <p class="mt-1">Tarifs des cours à domicile  </p>
+
                   <li>A partir de xx€ jusqu'à xx€ TTC/h après crédit d'impôt.</li>
-                </ul>
-              </div>
 
-              <div class="col">
-                <p>Les frais d'inscription</p>
-                <p>les frais d'inscriptions sont de 42.50€ TTC après crédit d'impôt.Ils sont variables pour toute la famille et pour l'année scolaire. Ils comprennent :</p>
-                <ul>
+
+
+
+                <p class="mt-1">Les frais d'inscription</p>
+                <p id="tarif-p">les frais d'inscriptions sont de 42.50€ TTC après crédit d'impôt.<br>Ils sont variables pour toute la famille et pour l'année scolaire. Ils comprennent :</p>
+
                   <li>Une évaluation des connaissances pour l'élève</li>
                   <li>L'ensemble des démarches administratives liées à l'emploi d'un enseignant à domicile.</li>
                   <li>Le suivi pédagogique avec un conseiller dédié.</li>
                   <li>La possibilité de changer ou rajouter une ou plusieurs matières au cours de l'année scolaire</li>
-                </ul>
-              </div>
 
-              <div class="col">
-                <p>Tarifs des cours collectifs en agence pendant les vacances scolaires  </p>
-                <ul>
+
+
+
+                <p class="mt-1">Tarifs des cours collectifs en agence pendant les vacances scolaires  </p>
+
                   <li>A partir de 22€ TTC /h par cours</li>
                   <li>A partir de 220€ TTC /h pour un stage intensif de révisions en petit groupe de 10h.</li>
                   <li>LIl se déroule à raison de 2 heures par jours sur 5 jours</li>
-                </ul>
-              </div>
 
-              <div class="col">
-                <p>Tarifs de nos cours en lighe  </p>
-                <ul>
+
+
+
+                <p class="mt-1">Tarifs de nos cours en lighe  </p>
+
                   <li>De 34.90€ à 16.60€ TTC par mois suivant la formule d'abonnement choisie</li>
                   <li>A partir de 220€ TTC /h pour un stage intensif de révisions en petit groupe de 10h.</li>
-                </ul>
-              </div>
+
+
 
             </div>
             <div class="col-tarif-image">
-                              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-particuliers-photo-of-woman-writing-on-blackboard-3184644@2x.jpg" alt="">
+              <div>
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-particuliers-photo-of-woman-writing-on-blackboard-3184644@2x.jpg" alt="">
+
+              </div>
 
             </div>
 
