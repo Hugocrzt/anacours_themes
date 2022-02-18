@@ -92,25 +92,25 @@
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-francais/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Français</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-physique-chimie/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Physique-chimie</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Mathématique</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-allemand/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Allemand</p>
 								</a>

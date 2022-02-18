@@ -11,45 +11,45 @@ get_header(); ?>
             <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
-						<h1>Cours Particuliers <span class="split-color-text">d'Anglais</span></h1>
+						<h1>
+							<?php the_field( 'landing_titre' ); ?>
+						</h1>
 					</div>
-					<h2 class="pillier-sous-titre">Apprendre l'anglais en toute simplicité !</h2>
-					<p>Nos familles ont compris l’enjeu qui se joue avec l’anglais devenu une langue incontournable, quel que soit le cursus envisagé. Des diplômes et certifications sont demandés dans la plupart des écoles de l’enseignement supérieur, et c’est pour cela qu’Anacours s’est entouré de partenaires tel que le Cambridge English pour accompagner ses élèves et leur offrir des prestations d’excellence.</p>
+					<h2 class="pillier-sous-titre"><?php the_field( 'landing_sous-titre' ); ?></h2>
+					<p><?php the_field( 'landing_paragraphe' ); ?></p>
 					<a class="cta-purple" href="#">Commencer dès maintenant</a>
 				</div>
-				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/element5-digital-7K_agbqPqYo-unsplash-scaled.jpg" alt="">
+				<?php $Landing_Image = get_field('landing_image'); if( $Landing_Image ): ?>
+				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo $Landing_Image['url']; ?>" alt="">
+				<?php endif; ?>
 			</div>
         </section>
         <section>
-			<div class="english-advantage-container">
+			<div class="english-advantage-container listing-adaptation">
 				<div class="english-advantage-title-wrapper">
-					<h2>Obtenir une certification de niveau grâce aux examens <span class="split-color-text">Cambridge English</span></h2>
-					<p>
-						Parce que chaque élève a besoin d’être motivé et encouragé dans sa progression, Anacours s’associe à Cambridge English, prépare les élèves à l’obtention de ses certifications.<br>
-						Pour les élèves de primaire, collège, de lycée, et de l’enseignement supérieur. Chaque élève est préalablement évalué pour déterminer son niveau d’anglais.
-					</p>
-					<div class="image-advantage-container">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/leone-venter-VieM9BdZKFo-unsplash-scaled-1.jpeg" alt="">
-					</div>
-					<p>Un programme est mis en place pour l’accompagner dans l’acquisition des compétences, à l’aide des enseignants Anacours, qui utiliseront spécifiquement les supports et outils proposés par Cambridge English. Dès qu’il est prêt, l’élève est orienté vers le centre d’examen Cambridge English, au sein duquel il pourra passer l’examen et obtenir sa certification.</p>
-				</div>
-			</div>
-        </section>
-        <section>
-			<div class="standar-listing-container">
-				<div class="standar-listing-text-wrapper">
-					<h2><span class="split-color-text">Le soutien hebdomadaire</span> en cours particuliers</h2>
-					<h3>Anacours depuis plus de 20 ans a mis en place un accompagnement scolaire qui a fait ses preuves</h3>
-					<div class="notre-plus-block">
+					<div class="column-one">
+						<h2>Un soutien scolaire qui a fait ses preuves</h2>
+						<p>
+							Anacours depuis plus de 20 ans a mis en place un accompagnement scolaire qui a fait ses preuves.
+						</p>
+						<div class="notre-plus-block">
 							<p>Notre plus</p>
-							<p>
-								Pour les plus jeunes Anacours propose une formule Kids initiation pour s’initier de façon ludique à l’anglais.<br>
-								Pendant les vacances à domicile ou en agence des stages intensifs de 10h de cours pour se renforcer sur la matière sont également proposés.
-							</p>
+							<p><?php the_field( 'notre_plus_pragraphe' ); ?></p>
+						</div>
 					</div>
-				</div>
-				<div class="standar-listing-list-wrapper">
-					<p>Nos cours particuliers hebdomadaires permettent de vérifier que les points fondamentaux du programme sont bien assimilés. L'élève se sent soutenu et rassuré toute l’année, ce qui suffit souvent à l’amélioration des notes ou à la réussite d’un examen.</p>
+					<div class="column-two">
+						<ul>
+							<li>
+								Un service d’écoute et un diagnostic précis des besoins 
+							</li>
+							<li>
+								Des enseignants dotés d’une pédagogie adaptée à chaque élève
+							</li>
+							<li>
+								Acquisition de bonnes méthodes de travail
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
         </section>
@@ -70,21 +70,23 @@ get_header(); ?>
 				</div>
 			</div>
 		</section>
-        <section>
+		<section>
 			<div class="explain-standard-container">
 				<div class="explain-standard-text-wrapper">
-					<h2>Nos stages intensifs <span class="split-color-text">d'Anglais</span></h2>
+					<h2><?php the_field( 'titre_stages_intensifs' ); ?></h2>
 					<p>Pendant les vacances à domicile ou en agence des stages intensifs de 10h de cours pour se renforcer sur la matière sont également proposés.</p>
 					<a class="cta-yellow" href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">En savoir plus</a>
 				</div>
 				<div class="explain-standard-image-wrapper">
 					<div>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/architecture-big-ben-bridge-34632-scaled.jpg" alt="">
+						<?php $Stages_Image = get_field('image_stages_intensifs'); if( $Stages_Image ): ?>
+						<img src="<?php echo $Stages_Image['url']; ?>" alt="">
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
         </section>
-        <section>
+		<section>
 			<div class="home-enseignants-container pillier-adaptation">
 				<div class="home-enseignants-wrapper">
 					<div class="home-enseignants-image">
@@ -300,6 +302,74 @@ get_header(); ?>
 				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/anacours/assets/src/img/553228-PK37K1-739.png" alt="">
 			</div>
 		</section>
+		<section>
+			<div class="container-bandeau-matiere">
+				<div class="wrapperone-bandeau-matiere">
+					<div>
+						<h2>Les cours particuliers <span class="split-color-text">dans une matière</span></h2>
+						<p>Le soutien scolaire en primaire, c’est l’assurance de voir votre enfant encadré à domicile dans une matière spécifique (mathématiques, français, anglais). L’enseignant a pour mission de revoir les leçons et retravailler en profondeur chaque chapitre au travers d’exercices. Il accompagne ainsi votre enfant dans l’acquisition de ses connaissances et lui permettra de garder confiance en lui.</p>
+					</div>
+				</div>
+				<div class="wrappertwo-bandeau-matiere">
+					<div class="matiere-grid">
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
+								<p>Mathématique</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-francais/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-francais.svg" alt="">
+								<p>Francais</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-physique-chimie/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-physique.svg" alt="">
+								<p>Physique-chimie</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
+								<p>Anglais</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-svt/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-svt.svg" alt="">
+								<p>SVT</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
+								<p>Economie</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-aide-devoirs.svg" alt="">
+								<p>Aide aux devoirs</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-allemand/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-allemand.svg" alt="">
+								<p>Allemand</p>
+							</a>
+						</div>
+						<div class="matiere-block">
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-espagnol/'>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-espagnol.svg" alt="">
+								<p>Espagnol</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
 		<section>
 			<div class="home-magazine-container">
 				<h2>Le Magazine Anacours</h2>

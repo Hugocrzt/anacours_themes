@@ -20,7 +20,7 @@ get_header(); ?>
 							Cours particuliers dans une matière
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 						</a>
-						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>demande-de-devis/">
+						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs/">
 							Aide aux devoirs
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 						</a>
@@ -104,7 +104,7 @@ get_header(); ?>
         <section>
 			<div class="english-advantage-container niveau-adaptation">
 				<div class="english-advantage-title-wrapper">
-					<h3>En quoi consiste notre accompagnement</h3>
+					<h2>En quoi consiste notre accompagnement</h2>
 				</div>
 				<div class="english-advantage-arguments-wrapper">
 					<div class="english-advantage-arguments-space">
@@ -287,6 +287,7 @@ get_header(); ?>
 		<section>
 			<div class="explain-standard-container invert-dispo">
 				<div class="explain-standard-text-wrapper">
+					<h2>Sortie d’école & devoirs</h2>
 					<p>Aller chercher votre enfant à l’école, vérifier que les leçons du jour sont apprises, superviser le travail à faire, préparer le cartable pour le lendemain... Anacours vous propose un service “sortie d’école & devoirs” pour avoir l’assurance de voir votre enfant encadré lors de son travail à la maison.  </p>
 					<div class="notre-plus-block">
 						<p>Notre plus</p>
