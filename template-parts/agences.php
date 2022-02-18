@@ -10,8 +10,9 @@ get_header(); ?>
         <section>
             <div class="agences-map-container">
                 <h1>Vos agences Anacours</h1>
-                <h2 class="lower-title">Anacours répond à votre demande de soutient scolaire partout en France</h2>
-                <p>Nunc vero inanes flatus quorundam vile esse quicquid extra urbis pomerium nascitur aestimant praeter orbos et caelibes, nec credi potest qua obsequiorum diversitate coluntur homines sine liberis Romae.</p>
+                <h2 class="lower-title subtitle-agence">Anacours répond à votre demande de soutien scolaire partout en France</h2>
+                <p>Vous souhaitez prendre des cours particuliers pour votre enfant, vous inscrire à un de nos stages intensifs en petit groupe durant les vacances ?<br>
+                Contactez-votre agence Anacours.</p>
                 <div class="agences-map-wraper">
                     <div class="home-map-searchbar-wrapper">
                         <input type="text" placeholder="Ville, code postal">

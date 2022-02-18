@@ -21,7 +21,7 @@ get_header(); ?>
 			</div>
         </section>
         <section>
-			<h2 class="explain-standard-head-title">Nos intervenants réalisent <span class="split-color-text">des activités de garde et des activités éducatives</span></h2>
+			<h2 class="explain-standard-head-title">des activités <span class="split-color-text">de garde et des activités éducatives</span></h2>
 			<div class="explain-standard-container">
 				<div class="explain-standard-text-wrapper">
 					<h3>Des intervenants qualifiés et de confiance</h3>

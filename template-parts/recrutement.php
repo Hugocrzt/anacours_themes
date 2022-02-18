@@ -28,20 +28,20 @@ get_header(); ?>
 					<h2>Vos avantages</h2>
 					<div class="english-advantage-arguments-space recrutement-adjustment">
 						<div class="english-advantage-argument-item">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/01_Rémunération-attractive.png" alt="">
+							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Remuneration-attractive.png" alt="">
 							<p>De nombreux cours proposés : une rémunération attractive et des cours payés 2 fois par mois.</p>
 						</div>
 						<div class="english-advantage-argument-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/02_Emploi-de-temps-flexible.png" alt="">
-							<p>D’une organisation flexible : des cours près de chez vous et adaptés à votre emploi du temps.</p>
+							<p>Une organisation flexible : des cours près de chez vous et adaptés à votre emploi du temps.</p>
 						</div>
 						<div class="english-advantage-argument-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Experience-pro_03.png" alt="">
-							<p>D’une expérience professionnelle riche de sens et valorisante.</p>
+							<p>Une expérience professionnelle riche de sens et valorisante.</p>
 						</div>
 						<div class="english-advantage-argument-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Des-conseillers-en-agences_04.png" alt="">
-							<p>D'un accompagnement permanent : des conseillers pédagogiques à votre service dans nos agences.</p>
+							<p>Un accompagnement permanent : des conseillers pédagogiques à votre service dans nos agences.</p>
 						</div>
 					</div>
 				</div>
@@ -49,7 +49,7 @@ get_header(); ?>
         </section>
         <section>
             <div class="recrutement-types-profils-container">
-                <h2>Qui sont les <span class="split-color-text">enseignants Anacours</span> ?</h2>
+                <h2>Qui sont les <span class="split-color-text">enseignants Anacours ?</span></h2>
                 <div class="recrutement-types-profils-wrapper">
                     <div class="recrutement-types-profils-item">
                         <div class="recrutement-types-profils-item-image-wrapper">
@@ -87,7 +87,7 @@ get_header(); ?>
                 <h2><span class="split-color-text">Nous recrutons</span> aussi des :</h2>
                 <div class="recrutement-post-wrapper">
                     <div class="recrutment-post-item">
-                        <h3>Intervenant sortie d'école & devoirs</h3>
+                        <h3>Intervenants sortie d'école & devoirs</h3>
                         <p>Vous souhaitez garder des enfants ? Vous êtes une personne responsable dotée d’une expérience pédagogique dans la garde d’enfants. Vous aurez à prendre en charge un enfant de la sortie d’école jusqu’au retour des parents. Vous êtes titulaire d’un Baccalauréat ou d’un diplôme spécialisé dans la petite enfance ? Rejoignez notre équipe.</p>
                         <div class="recrutment-post-cta">
                             <a class="cta-purple" href="#">Postuler</a>
@@ -95,7 +95,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="recrutment-post-item">
-                        <h3>Professeur de Musique</h3>
+                        <h3>Professeurs de Musique</h3>
                         <p>Diplômé du conservatoire, et/ou avec une expérience significative de l’enseignement d’un instrument, vous souhaitez transmettre vos connaissances et votre passion pour la musique ? Le recrutement de professeurs vous propose de venir enseigner la pratique de votre instrument à des élèves, enfants comme adultes d’un niveau débutant à avancé.</p>
                         <div class="recrutment-post-cta">
                             <a class="cta-purple" href="#">Postuler</a>
@@ -107,7 +107,9 @@ get_header(); ?>
         </section>
         <section>
             <div class="recrutement-video-container">
-                <h2>Paroles de profs: <span class="split-color-text">nos enseignants témoignent</span></h2>
+                <h2>Paroles de profs<br>
+                 <span class="split-color-text">nos enseignants témoignent</span>
+                </h2>
                 <p>Nous avons donné la parole à nos enseignants, car ce sont eux, qui parlent le mieux de leur métier. Retrouvez notre web série Paroles de profs et comme eux partagez cette envie de transmettre, rejoignez notre équipe enseignants Anacours.</p>
                 <div class="swiper-three">
                     <div class="swiper-wrapper">

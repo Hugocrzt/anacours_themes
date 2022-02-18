@@ -10,8 +10,9 @@ get_header(); ?>
 		<section>
             <div class="home-landing-bandeau about-adaptation">
 				<div class="home-landing-bandeau-text-wrapper">
-					<h1><span class="split-color-text">Une solution sur mesure</span>, adaptée aux besoins de chacun</h1>
-					<p>Spécialiste du soutien scolaire depuis plus de 20 ans, Anacours fait partie des leaders du secteur en France. Présents aux côtés de 10 000 élèves chaque année, notre ambition : offrir à chaque enfant une solution éducative adaptée aux enjeux de la scolarité moderne du primaire jusqu’aux études supérieures à travers la formule de cours la plus adaptée :</p>
+					<h1><span class="split-color-text">Au plus proche </span>des familles et des élèves</h1>
+          <h2 class="pillier-sous-titre">Anacours répond à votre demande de soutien scolaire partout en France</h2>
+					<p>Spécialiste du soutien scolaire depuis plus de 20 ans, Anacours fait partie des leaders du secteur en France. Présents aux côtés de&nbsp;12&nbsp;000 élèves chaque année. Notre ambition : offrir à chaque enfant une solution éducative adaptée aux enjeux de la scolarité moderne du primaire jusqu’aux études supérieures à travers la formule de cours la plus adaptée :</p>
 					<div class="tophorizontal-landing-ctas-niveau-adaptation">
 						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
 							Cours particuliers
@@ -26,14 +27,16 @@ get_header(); ?>
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 						</a>
 					</div>
-				</div>
+          <p id="about-landing-subtext-2">Notre présence via notre vaste réseau d'agences locales, nous permet d'être au plus près de l'environnement scolaire de nos familles avec des cours partout en France.</p>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="cta-yellow">Retrouvez l'agence la plus proche de chez vous</a>
+        </div>
 				<img class="home-landing-background-image" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_des-solutions-sur-mesure.jpg" alt="">
 			</div>
         </section>
         <section>
 			<div class="explain-standard-container invert-dispo">
 				<div class="explain-standard-text-wrapper">
-					<h2>Notre philosophie : <span class="split-color-text">le tandem gagnant "elève-enseignant"</span></h2>
+					<h2 class="about-philosophie">Notre philosophie : <span class="split-color-text">le tandem</span> gagnant "elève-enseignant"</h2>
 					<p>Enfant, chacun a vécu au moins une fois cette expérience : la rencontre avec un maître, une institutrice ou un professeur “différent”. Chez Anacours nous pensons que la qualité de l’ajustement du tandem élève/professeur est déterminante dans l’efficacité d’un cours à domicile, nous avons placé la constitution de ce tandem gagnant au cœur de notre dispositif éducatif.</p>
 				</div>
 				<div class="explain-standard-image-wrapper">
@@ -60,8 +63,21 @@ get_header(); ?>
 			<div class="explain-standard-container invert-dispo">
 				<div class="explain-standard-text-wrapper">
 					<h2><span class="split-color-text">Nos engagements</span> qualité</h2>
-					<p>Anacours s’est engagé depuis sa création dans une démarche qualité pour rendre nos cours encore plus efficaces. Depuis toujours, la réussite de nos élèves est une priorité. C’est pourquoi, Anacours s’engage dans une démarche de qualité de service récompensée par la certification à la norme QUALICERT.</p>
-				</div>
+					<p>Depuis toujours, la réussite de nos élèves est une priorité. C’est pourquoi, Anacours s’engage dans une démarche de qualité de service récompensée par la certification à la norme QUALICERT.</p>
+          <div class="logo-texte-wrapper">
+            <div style="height:75px; width:75px;background-color:gray;margin-right:25px;">logo qualicert</div>
+              <h2 style="    font-size: 1.7rem;">titre qui permettra de raccourcir le texte juste en dessous</h2>
+          </div>
+          <p>Au cours de l'audit  réalisé par un organisme indépendant SGS-ICS, Anacours a satisfait à toutes les caractéristiques composant le référentiel "Prestation de service à la personne " et notamment les points suivants :</p>
+          <div>
+            <ul class="about-ul">
+              <li>Sélection et recrutement des enseignants </li>
+              <li>Aceuil des familles et le diagnostic des besoins </li>
+              <li>Le suivi personnalisé de chaque élève </li>
+            </ul>
+          </div>
+          <a class="cta-yellow" href="http://localhost:10018/agences/">En savoir plus</a>
+        </div>
 				<div class="explain-standard-image-wrapper">
 					<div>
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_nos-engagements-qualite.jpg" alt="">
@@ -191,6 +207,23 @@ get_header(); ?>
 				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/anacours/assets/src/img/553228-PK37K1-739.png" alt="">
 			</div>
 		</section>
+
+    <section>
+			<div class="explain-standard-container invert-dispo">
+        <div class="explain-standard-image-wrapper">
+          <div>
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_nos-engagements-qualite.jpg" alt="">
+          </div>
+        </div>
+				<div class="explain-standard-text-wrapper">
+					<h2><span class="split-color-text">Nous recrutons</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam voluptatum placeat minima ipsum asperiores nihil modi voluptate maxime vel qui eligendi officiis saepe pariatur itaque suscipit, accusantium recusandae delectus.</p>
+          <a class="cta-yellow" href="<?php echo esc_url( home_url( '/' ) ); ?>recrutement/">Recrutement enseignants</a>
+          <a class="cta-yellow recrutement-rh" href="#">Recrutement RH</a>
+        </div>
+			</div>
+        </section>
+
 		<section>
 			<div class="home-magazine-container">
 				<h2>Le Magazine Anacours</h2>
