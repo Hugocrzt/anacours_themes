@@ -23,12 +23,17 @@ get_header(); ?>
 				<div class="explain-standard-text-wrapper agence-adaptation">
                     <div class="explain-standard-text-inter-col">
                         <div class="explain-standard-text-inter-col0ne">
-                            <h3>Adresse</h3>
-                            <p>15 Rue Delile</br>06000 Nice</p>
+                          <div style="display:flex; flex-direction:row;align-items: baseline;">
+                            <div style="width:10%; height:10%; margin-right: 10px;">
+                            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/icons8-marqueur-96.png" alt="">
+                          </div>
+                          <h3>Adresse</h3>
+                        </div>
+                        <p>15 Rue Delile</br>06000 Nice</p>
+
                             <div style="display:flex; flex-direction:row;align-items: baseline;">
                             <div style="width:10%; height:10%; margin-right: 10px;">
-
-                              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/icons8-marqueur-96.png" alt="">
+                              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/icons8-telephone-100.png" alt="">
                             </div>
                               <h3>Téléphone</h3>
                             </div>
