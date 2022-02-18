@@ -15,6 +15,8 @@ h2 {
   font-family: "Texta";
   text-transform: uppercase;
   font-weight: 900;
+  /* font-weight 800 & 700 ne changent rien */
+  /* font-weight: 600; */
   line-height: 1.05em;
   color: #323f48;
 }
@@ -177,6 +179,12 @@ img {
   background-color: white;
   transition: background-color 0.3s;
 }
+.home-solution-text-wrapper {
+  text-overflow: ellipsis;
+  max-height: 114px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
 .home-solution-box:hover {
   background-color: #009fde;
 }
@@ -203,7 +211,7 @@ img {
 .home-solution-box p {
   width: 85%;
   padding: 0 7.5%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   transition: all 0.3s;
 }
 .home-solution-box:hover p {
@@ -251,20 +259,23 @@ img {
   position: relative;
   width: 100%;
   height: auto;
-  margin: 150px auto 100px auto;
+  margin: 80px auto 100px auto;
 }
 .bandeau-calltoaction-wrapper {
   position: relative;
   width: 85%;
+  min-height: 170px;
   height: auto;
   margin: auto;
-  padding: 75px 0;
+  /* padding: 50px 0; */
+  padding: 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #fed000;
-  background-size: 65%;
-  background-position: 110%;
+  /* background-size: 65%; */
+  background-size: contain;
+  background-position: 100%;
   background-repeat: no-repeat;
   background-image: url(https://anacours.360crozet.fr/wp-content/uploads/2021/12/symbole-anacours-bandeau-jaune.svg);
 }
@@ -284,6 +295,7 @@ img {
   height: 100%;
 }
 .bandeau-calltoaction-text {
+  margin-top: 40px;
   width: 25%;
   height: auto;
   margin-left: 30%;
@@ -293,7 +305,7 @@ img {
   text-transform: none;
   color: white;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .bandeau-calltoaction-text h2:last-child {
   font-size: 1.3rem;
@@ -358,6 +370,7 @@ img {
   text-align: center;
 }
 .home-map-container p {
+  font-size: 1.5rem;
   width: fit-content;
   margin: auto;
   text-align: center;
@@ -365,6 +378,7 @@ img {
 .home-map-searchbar-wrapper {
   width: 65%;
   margin: 50px auto;
+  margin-top:25px;
   overflow: hidden;
   border-radius: 100px;
   display: flex;
@@ -463,7 +477,7 @@ img {
 /*SECTION5*/
 .home-arguments-container {
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px 0 50px 0;
   width: 100%;
   background-color: #cceeff;
@@ -504,7 +518,7 @@ img {
   background-color: white;
 }
 .home-argument-text h3 {
-  font-size: 5rem;
+  font-size: 3.3rem;
   color: #009fdf;
   margin: 0;
 }
@@ -593,6 +607,7 @@ img {
   width: 40%;
   margin: auto;
   text-align: center;
+  font-size: 1.5rem;
 }
 .home-avis-wrapper {
   position: relative;
@@ -699,7 +714,7 @@ img {
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide {
   position: relative;
-  height: 90vh;
+  height: 55vh;
   width: 23.01vw !important;
   display: flex;
   flex-direction: column;
@@ -1156,14 +1171,15 @@ p {
   .home-landing-bandeau-title-container {
     position: relative;
     width: 85%;
-    margin: 25vh auto 0 auto;
+    margin: 27vh auto 0 auto;
   }
+
   .home-landing-bandeau .home-landing-bandeau-title-container img {
     position: relative !important;
     width: 70% !important;
     height: auto !important;
     z-index: 1 !important;
-    margin-bottom: 12.5px !important;
+    margin-bottom: 30px !important;
     right: auto !important;
   }
   .home-landing-bandeau-text-wrapper {
@@ -1173,7 +1189,7 @@ p {
     margin-right: auto;
     padding-top: 75px;
     padding-left: 0;
-    background: linear-gradient(0deg, #cceeff 40%, rgba(0, 0, 0, 0) 40%);
+    background: linear-gradient(0deg, #cceeff 42%, rgba(0, 0, 0, 0) 40%);
     background-size: contain;
   }
   .home-landing-bandeau-text-wrapper p {
@@ -1203,7 +1219,7 @@ p {
     font-size: 1.65rem;
   }
   .bandeau-calltoaction-container {
-    margin: 75px auto;
+    margin: 20px auto;
   }
   .home-landing-bandeau-search-wrapper {
     position: relative;
@@ -1213,7 +1229,7 @@ p {
     width: 85%;
     height: auto;
     background: #cceeff;
-    padding: 50px 7.5%;
+    padding: 25px 7.5%;
   }
   .home-landing-bandeau-search-wrapper p {
     display: none;
@@ -1229,7 +1245,7 @@ p {
     border-radius: 100px;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    border: 1px solid #777777;
   }
   .home-landing-bandeau-searchbar-mobile input {
     padding: 20px 20px;
@@ -1261,7 +1277,7 @@ p {
   }
   .home-solution-box {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
   }
   .bandeau-calltoaction-wrapper {
     padding: 35px 0;

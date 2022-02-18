@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Recrutement
@@ -87,7 +87,7 @@ get_header(); ?>
                 <h2><span class="split-color-text">Nous recrutons</span> aussi des :</h2>
                 <div class="recrutement-post-wrapper">
                     <div class="recrutment-post-item">
-                        <h3>Intervenant sortie d'école et devoirs</h3>
+                        <h3>Intervenant sortie d'école & devoirs</h3>
                         <p>Vous souhaitez garder des enfants ? Vous êtes une personne responsable dotée d’une expérience pédagogique dans la garde d’enfants. Vous aurez à prendre en charge un enfant de la sortie d’école jusqu’au retour des parents. Vous êtes titulaire d’un Baccalauréat ou d’un diplôme spécialisé dans la petite enfance ? Rejoignez notre équipe.</p>
                         <div class="recrutment-post-cta">
                             <a class="cta-purple" href="#">Postuler</a>
@@ -146,7 +146,7 @@ get_header(); ?>
                         <div class="prev-ctrl">
                             <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
                         </div>
-                        <div class="swiper-pagination"></div> 
+                        <div class="swiper-pagination"></div>
                         <div class="next-ctrl">
                             <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
                         </div>
@@ -159,7 +159,7 @@ get_header(); ?>
 				<h2><span class="split-color-text">40 Agences</span> en France</h2>
 				<p>trouver l'agence la plus proche de chez vous</p>
 				<div class="home-map-searchbar-wrapper">
-					<input type="text" placeholder="Vile, code postal">
+					<input type="text" placeholder="Ville, code postal">
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
 				</div>
@@ -257,7 +257,7 @@ get_header(); ?>
 					<div class="next-ctrl">
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
 					</div>
-					<div class="swiper-pagination"></div> 
+					<div class="swiper-pagination"></div>
 				</div>
 		</section>
     </main>

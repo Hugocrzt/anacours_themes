@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Particulier Matières
@@ -137,7 +137,7 @@ get_header(); ?>
 										</div>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div> 
+								<div class="swiper-pagination"></div>
 							<div>
 						</div>
 					</div>
@@ -291,7 +291,7 @@ get_header(); ?>
 									</p>
 								</div>
 							</div>
-							<div class="swiper-pagination"></div> 
+							<div class="swiper-pagination"></div>
 						<div>
 					</div>
 				</div>
@@ -362,8 +362,49 @@ get_header(); ?>
 					<div class="next-ctrl">
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
 					</div>
-					<div class="swiper-pagination"></div> 
+					<div class="swiper-pagination"></div>
 				</div>
+		</section>
+		<section>
+			<div class="home-map-container final-section">
+				<h2><span class="split-color-text">40 Agences</span> en France</h2>
+				<p>trouver l'agence la plus proche de chez vous</p>
+				<div class="home-map-searchbar-wrapper">
+					<input type="text" placeholder="Ville, code postal">
+					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
+					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
+				</div>
+				<div class="home-map-content-wrapper">
+					<div class="home-map-image-wrapper">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/france.svg" alt="">
+					</div>
+					<div class="home-map-list-wrapper">
+						<div class="home-map-list-items-wrapper">
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
+								<h3>Ile-de-france</h3>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
+							</a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
+								<h3>Lyon</h3>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
+							</a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
+								<h3>Bordeaux</h3>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
+							</a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
+								<h3>Marseille</h3>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
+							</a>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
+								<h3>Toulouse</h3>
+								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
+							</a>
+						</div>
+						<a class="toutes-agence-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>agences/">Voir toutes les agences</a>
+					</div>
+				</div>
+			</div>
 		</section>
     </main>
 </div>

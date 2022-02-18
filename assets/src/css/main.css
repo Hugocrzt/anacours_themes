@@ -1,4 +1,5 @@
 @import "../library/fonts/fonts.css";
+@import "global.css";
 @import "home.css";
 @import "genere.css";
 @import "pilier.css";
@@ -17,11 +18,14 @@
 @import "footer.css";
 @import "header.css";
 @import "legales.css";
+@import "tarifs.css";
 @import "../library/css/swiper-bundle.min.css";
 
 body {
   overflow-x: hidden;
 }
+
+/* au dessus de 1600px margin*/
 @media (min-width: 768px) and (max-width: 1023px) {
   main {
     overflow-x: hidden;

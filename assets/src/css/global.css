@@ -1,14 +1,18 @@
-.line-intesection {
+.line-intersection {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
-  margin: 0.5em 0;
+  margin: 0;
   padding: 0;
-  width:90%;
-  margin:0 auto;
-  margin-top:60px;
+  width:100%;
 }
+
+/* Medium & big desktop  */
+/* @media (min-width: 1601px) and (max-width: 20160px) { }  */
+
+/* Small desktop  */
+/* @media (min-width: 1024px) and (max-width: 1600px) { }  */
 
 /* Tablette */
 /* @media (min-width: 768px) and (max-width: 1023px) { } */

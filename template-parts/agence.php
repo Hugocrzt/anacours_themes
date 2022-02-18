@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Agence
@@ -98,7 +98,7 @@ get_header(); ?>
                 <h2>Vos agences partout en France</h2>
                 <div class="agences-map-wraper">
                     <div class="home-map-searchbar-wrapper">
-                        <input type="text" placeholder="Vile, code postal">
+                        <input type="text" placeholder="Ville, code postal">
                         <button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
                         <button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
                     </div>

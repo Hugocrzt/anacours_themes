@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
     Template Name: Devoirs
@@ -11,7 +11,7 @@ get_header(); ?>
             <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
-						<h1><span class="split-color-text">Sortie d'école</span> et devoirs</h1>
+						<h1><span class="split-color-text">Sortie d'école</span> & devoirs</h1>
 					</div>
 					<h2 class="pillier-sous-titre">Un service de garde "ludo-éducative"</h2>
 					<p>Pour les enfants scolarisés en maternelle et primaire, Anacours propose un service de garde périscolaire « ludo-éducative » afin d’enrichir la personnalité et l’épanouissement des enfants (jusqu’à 3 enfants maximum). Vous avez ainsi l’assurance de voir votre enfant encadré par un intervenant de confiance.</p>
@@ -185,7 +185,7 @@ get_header(); ?>
 									</p>
 								</div>
 							</div>
-							<div class="swiper-pagination"></div> 
+							<div class="swiper-pagination"></div>
 						<div>
 					</div>
 				</div>
@@ -256,7 +256,7 @@ get_header(); ?>
 					<div class="next-ctrl">
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron-left-slider.svg" alt="">
 					</div>
-					<div class="swiper-pagination"></div> 
+					<div class="swiper-pagination"></div>
 				</div>
 		</section>
         <section>
@@ -264,7 +264,7 @@ get_header(); ?>
 				<h2><span class="split-color-text">40 Agences</span> en France</h2>
 				<p>trouver l'agence la plus proche de chez vous</p>
 				<div class="home-map-searchbar-wrapper">
-					<input type="text" placeholder="Vile, code postal">
+					<input type="text" placeholder="Ville, code postal">
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
 					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
 				</div>

@@ -56,9 +56,11 @@
         </div>
     </div>
     <div class="bottom-footer">
+
         <div class="bottom-footer-credit">
             <p>© 1999-2021 Anacours - Soutien scolaire</p>
         </div>
+        <div class="line-intersection"></div>
         <div class="bottom-footer-legal">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>donnees-personnelles/" target="_blank">Données personnelles</a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>cookies/" target="_blank">Cookies</a>
@@ -66,8 +68,9 @@
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>mentions-legales/" target="_blank">Mentions légales</a>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>conditions-generales-de-service/" target="_blank">CGS</a>
         </div>
-    </div>
-</footer>
+        <div class="line-intersection"></div>
+      </div>
+    </footer>
 
 <?php wp_footer(); ?>
 

@@ -3,9 +3,16 @@ footer {
   width: 100%;
   height: auto;
 }
+.line-intersection {
+  display:none
+}
 .top-footer {
   width: 85%;
-  padding: 100px 10%;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding: 60px 10%;
   background-color: #343f48;
   display: flex;
   flex-direction: row;
@@ -125,4 +132,12 @@ footer {
 }
 .bottom-footer-legal a:hover {
   opacity: 0.5;
+}
+
+
+@media (max-width: 767px) {
+  .footer-column-cta a:first-child {
+
+    padding: 20px 20px;
+  }
 }

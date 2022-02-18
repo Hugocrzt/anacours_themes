@@ -1,0 +1,122 @@
+
+
+.tarifs-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container-ligne {
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  justify-content: space-evenly;
+}
+
+.row-tarif-liste {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  width: 65%;
+  height: 455px;
+
+  align-items: flex-start;
+  /* max-height:300px; */
+  /* border: solid 1px red; */
+  padding: 30px 30px;
+}
+.row-tarif-liste p {
+  color: #009fde;
+  font-weight: 600;
+  max-width: 300px;
+  text-align: left;
+  line-height: 1.4rem;
+}
+
+#tarif-p {
+  color: black;
+}
+
+.mt-1 {
+  margin-top: 20px;
+}
+.row-tarif-liste ul {
+  margin: 0;
+}
+.row-tarif-liste li {
+  text-align: left;
+  max-width: 360px;
+  list-style-type: none;
+  font-size: 1.25rem;
+  font-family: "Texta";
+  font-weight: 400;
+}
+
+.row-tarif-liste li:before {
+  content: "•";
+  font-size: 11pt;
+  margin-right: 7px;
+}
+
+.col-tarif-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: auto;
+}
+
+.moyen-paiment-container {
+  /* position: relative; */
+  width: 90%;
+  margin: 100px auto;
+}
+.moyen-paiement-wrapper {
+  /* position: relative; */
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+.moyen-paiement-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.moyen-paiement-item {
+  /* position: relative; */
+  width: 20%;
+}
+
+.moyen-paiement-other {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  width: 50%;
+}
+.rectangle {
+  height: 150px;
+  width: 280px;
+  background-color: salmon;
+
+  margin-right: 50px;
+}
+.container-button {
+  display: flex;
+  justify-content: center;
+}

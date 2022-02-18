@@ -738,7 +738,7 @@ p {
   .top-footer {
     flex-direction: column;
     width: 90%;
-    padding: 100px 5%;
+    padding: 30px 5%;
   }
   .footer-column-image {
     width: 20%;
@@ -752,6 +752,9 @@ p {
     margin-right: 0;
     justify-content: space-between;
     margin-bottom: 30px;
+  }
+  .footer-column-nav .magazine-adaptation img {
+    width: 7% !important;
   }
   .footer-column-nav div {
     width: 47.5%;
@@ -779,9 +782,17 @@ p {
   .bottom-footer-credit p {
     font-size: 1rem;
   }
+  .bottom-footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .bottom-footer-legal a {
     margin-right: 0;
     padding-right: 10px;
     font-size: 1rem;
+    line-height:1.7rem;
+  }
+  .line-intersection {
+    display:block;
   }
 }
