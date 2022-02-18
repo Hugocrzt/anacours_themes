@@ -28,28 +28,10 @@ get_header(); ?>
 						Parce que chaque élève a besoin d’être motivé et encouragé dans sa progression, Anacours s’associe à Cambridge English, prépare les élèves à l’obtention de ses certifications.<br>
 						Pour les élèves de primaire, collège, de lycée, et de l’enseignement supérieur. Chaque élève est préalablement évalué pour déterminer son niveau d’anglais.
 					</p>
-				</div>
-				<div class="english-advantage-arguments-wrapper">
-					<h3>Les avantages</h3>
-					<div class="english-advantage-arguments-space">
-						<div class="english-advantage-argument-item">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
-							<p>Évoluer dans l’apprentissage de l’anglais étape par étape.</p>
-						</div>
-						<div class="english-advantage-argument-item">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
-							<p>Pouvoir se positionner par rapports aux standards internationaux.</p>
-						</div>
-						<div class="english-advantage-argument-item">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
-							<p>Maîtriser les 4 compétences orales et écrites requises par l’Education Nationale pour chaque niveau du cadre européen des langues.</p>
-						</div>
-						<div class="english-advantage-argument-item">
-							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
-							<p>Obtenir des certifications de niveau leur permettant d’intégrer de nombreuses écoles et universités à travers le monde.</p>
-						</div>
+					<div class="image-advantage-container">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/leone-venter-VieM9BdZKFo-unsplash-scaled-1.jpeg" alt="">
 					</div>
-					<a class="cta-purple" href="#">Demander un devis</a>
+					<p>Un programme est mis en place pour l’accompagner dans l’acquisition des compétences, à l’aide des enseignants Anacours, qui utiliseront spécifiquement les supports et outils proposés par Cambridge English. Dès qu’il est prêt, l’élève est orienté vers le centre d’examen Cambridge English, au sein duquel il pourra passer l’examen et obtenir sa certification.</p>
 				</div>
 			</div>
         </section>
@@ -382,47 +364,6 @@ get_header(); ?>
 					</div>
 					<div class="swiper-pagination"></div> 
 				</div>
-		</section>
-		<section>
-			<div class="home-map-container final-section">
-				<h2><span class="split-color-text">40 Agences</span> en France</h2>
-				<p>trouver l'agence la plus proche de chez vous</p>
-				<div class="home-map-searchbar-wrapper">
-					<input type="text" placeholder="Vile, code postal">
-					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-localisez-moi.svg" alt=""></button>
-					<button><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-search.svg" alt=""></button>
-				</div>
-				<div class="home-map-content-wrapper">
-					<div class="home-map-image-wrapper">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/france.svg" alt="">
-					</div>
-					<div class="home-map-list-wrapper">
-						<div class="home-map-list-items-wrapper">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Ile-de-france</h3>
-								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
-							</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Lyon</h3>
-								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
-							</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Bordeaux</h3>
-								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
-							</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Marseille</h3>
-								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
-							</a>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="home-map-list-item">
-								<h3>Toulouse</h3>
-								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
-							</a>
-						</div>
-						<a class="toutes-agence-btn" href="<?php echo esc_url( home_url( '/' ) ); ?>agences/">Voir toutes les agences</a>
-					</div>
-				</div>
-			</div>
 		</section>
     </main>
 </div>

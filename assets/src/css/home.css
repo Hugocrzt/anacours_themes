@@ -780,6 +780,9 @@ img {
 .swiper-pagination {
   bottom: -50px !important;
 }
+.swiper-pagination {
+  pointer-events: all !important;
+}
 .swiper-pagination-bullet-active {
   background-color: #ebd02f !important;
 }

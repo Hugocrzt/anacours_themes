@@ -192,6 +192,22 @@ get_header(); ?>
 				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/anacours/assets/src/img/553228-PK37K1-739.png" alt="">
 			</div>
 		</section>
+		<section>
+			<div class="bandeau-genere-dynamique-niveau">
+				<div class="column-one">
+					<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/pexels-max-fischer-5211457.png" alt="">
+				</div>
+				<div class="column-two">
+					<h2>
+						Objectif : </br>
+						<span class="split-color-text">Réussir au ((Primaire)) !</span>
+					</h2>
+					<p>
+						Au primaire, l’acquisition des fondamentaux est primordial pour la suite de la scolarité. Il est nécessaire de développer l’envie d’apprendre dès ces premières années. C’est pourquoi Anacours propose de l’aide aux devoirs et des cours particuliers adaptés aux plus jeunes pour permettre à votre enfant de consolider ses acquis et garder confiance en lui.
+					</p>
+				</div>
+			</div>
+		</section>
         <section>
             <h2 class="generee-accompagnement-adaptation-title">Touver la formule qui vous convient le mieux</h2>
 			<div class="autre-accompagnement-container generee-adaptation">

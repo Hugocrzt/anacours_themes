@@ -1,1 +1,41 @@
-@font-face{font-family:Texta;font-style:normal;font-weight:400;src:local("Texta Regular"),local("Texta_Regular"),url(Texta/TextaNarrow-Regular.woff2) format("woff2"),url(Texta/TextaNarrow-Regular.woff) format("woff");font-display:swap}@font-face{font-family:Texta;font-style:normal;font-weight:600;src:local("Texta Bold"),local("Texta_Bold"),url(Texta/TextaNarrow-Bold.woff2) format("woff2"),url(Texta/TextaNarrow-Bold.woff) format("woff");font-display:swap}@font-face{font-family:Texta;font-style:normal;font-weight:900;src:local("Texta Black"),local("Texta_Black"),url(Texta/Latinotype-Texta-Black.woff2) format("woff2"),url(Texta/Latinotype-Texta-Black.woff) format("woff");font-display:swap}
+/* FuturaPT Book */
+/* Regular */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Texta Regular"), local("Texta_Regular"),
+    url("Texta/TextaNarrow-Regular.woff2") format("woff2"),
+    url("Texta/TextaNarrow-Regular.woff") format("woff");
+  font-display: swap;
+}
+/* Bold */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Texta Bold"), local("Texta_Bold"),
+    url("Texta/TextaNarrow-Bold.woff2") format("woff2"),
+    url("Texta/TextaNarrow-Bold.woff") format("woff");
+  font-display: swap;
+}
+/* Black */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Texta Heavy"), local("Texta_Heavy"),
+    url("Texta/Latinotype-Texta-Heavy.woff2") format("woff2"),
+    url("Texta/Latinotype-Texta-Heavy.woff") format("woff");
+  font-display: swap;
+}
+/* Black */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Texta Black"), local("Texta_Black"),
+    url("Texta/Latinotype-Texta-Black.woff2") format("woff2"),
+    url("Texta/Latinotype-Texta-Black.woff") format("woff");
+  font-display: swap;
+}

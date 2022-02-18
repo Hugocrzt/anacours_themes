@@ -23,6 +23,16 @@
 @font-face {
   font-family: "Texta";
   font-style: normal;
+  font-weight: 700;
+  src: local("Texta Heavy"), local("Texta_Heavy"),
+    url("Texta/Latinotype-Texta-Heavy.woff2") format("woff2"),
+    url("Texta/Latinotype-Texta-Heavy.woff") format("woff");
+  font-display: swap;
+}
+/* Black */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
   font-weight: 900;
   src: local("Texta Black"), local("Texta_Black"),
     url("Texta/Latinotype-Texta-Black.woff2") format("woff2"),

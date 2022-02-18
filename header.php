@@ -245,7 +245,7 @@
 					</div>
 					<div class="nav-mobile-container">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
-							<p>Cours particulier</p>
+							<p>Cours particuliers</p>
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-chevron.svg" alt="">
 						</a>
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">
