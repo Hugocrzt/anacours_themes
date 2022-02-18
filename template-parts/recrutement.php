@@ -49,7 +49,7 @@ get_header(); ?>
         </section>
         <section>
             <div class="recrutement-types-profils-container">
-                <h2>Qui sont les <span class="split-color-text">enseignants Anacours</span> ?</h2>
+                <h2>Qui sont les <span class="split-color-text">enseignants Anacours ?</span></h2>
                 <div class="recrutement-types-profils-wrapper">
                     <div class="recrutement-types-profils-item">
                         <div class="recrutement-types-profils-item-image-wrapper">

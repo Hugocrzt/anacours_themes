@@ -62,6 +62,9 @@
   justify-content: space-between;
 }
 .recrutment-post-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   width: 40%;
   padding: 30px;
