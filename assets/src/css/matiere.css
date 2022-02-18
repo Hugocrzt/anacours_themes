@@ -67,23 +67,34 @@
 .explain-standard-container .cta-yellow:hover {
   background: #fed00000;
 }
-.standar-listing-container {
+.standar-listing-container.invert-dispo {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
   width: 90%;
   padding: 5%;
   background: #f4f7ff;
 }
-.standar-listing-text-wrapper {
+.standar-listing-container.invert-dispo .standar-listing-text-wrapper {
   position: relative;
-  width: 40%;
-  margin-right: 10%;
+  width: 47.5%;
 }
-.standar-listing-list-wrapper {
+.standar-listing-container.invert-dispo .standar-listing-list-wrapper {
   position: relative;
-  width: 50%;
+  width: 47.5%;
+}
+.standar-listing-list-wrapper .image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 80vh;
+}
+.standar-listing-list-wrapper .image-container img {
+  position: relative;
+  height: 100%;
+  width: auto;
 }
 .standar-listing-list-wrapper li {
   list-style-type: disclosure-closed;
@@ -102,10 +113,43 @@
   margin: 100px auto;
 }
 .english-advantage-title-wrapper {
-  text-align: center;
   position: relative;
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.english-advantage-title-wrapper .column-one {
+  position: relative;
+  width: 47.5%;
+  height: auto;
+}
+.english-advantage-title-wrapper .column-two {
+  position: relative;
+  width: 47.5%;
+  height: auto;
+}
+.english-advantage-container.listing-adaptation
+  .english-advantage-title-wrapper
+  .column-two {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.english-advantage-container.listing-adaptation
+  .english-advantage-title-wrapper
+  .column-two
+  ul
+  li {
+  font-size: 1.75rem;
+  font-family: "Texta";
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 40px;
+  list-style-type: disclosure-closed;
+  color: #030f1c;
 }
 .english-advantage-arguments-wrapper {
   position: relative;
@@ -164,8 +208,6 @@
 .image-advantage-container {
   position: relative;
   width: 100%;
-  height: 30vh;
-  margin: 50px auto;
 }
 .image-advantage-container img {
   position: relative;
@@ -182,6 +224,14 @@
   }
   .english-advantage-title-wrapper {
     width: 100%;
+    flex-direction: column;
+  }
+  .english-advantage-title-wrapper .column-one {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .english-advantage-title-wrapper .column-two {
+    width: 100%;
   }
   .english-advantage-arguments-space {
     flex-direction: column;
@@ -190,9 +240,22 @@
     width: 80%;
     margin: 20px auto;
   }
-  .standar-listing-container {
+  .standar-listing-container.invert-dispo {
     flex-direction: column;
     padding: 5% 5% 10% 5%;
+  }
+  .standar-listing-container.invert-dispo .standar-listing-text-wrapper {
+    width: 100%;
+  }
+  .standar-listing-container.invert-dispo .standar-listing-list-wrapper {
+    width: 100%;
+  }
+  .standar-listing-list-wrapper .image-container {
+    height: auto;
+  }
+  .standar-listing-list-wrapper .image-container img {
+    height: auto;
+    width: 100%;
   }
   .standar-listing-text-wrapper {
     width: 100%;
@@ -218,12 +281,20 @@
 }
 @media (max-width: 767px) {
   .english-advantage-container {
-    margin: 75px auto;
+    margin: 50px auto;
   }
   .cta-purple {
     margin-bottom: 20px;
   }
   .english-advantage-title-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .english-advantage-title-wrapper .column-one {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .english-advantage-title-wrapper .column-two {
     width: 100%;
   }
   .english-advantage-arguments-space {
@@ -233,9 +304,22 @@
     width: 80%;
     margin: 20px auto;
   }
-  .standar-listing-container {
+  .standar-listing-container.invert-dispo {
     flex-direction: column;
     padding: 5% 5% 10% 5%;
+  }
+  .standar-listing-container.invert-dispo .standar-listing-text-wrapper {
+    width: 100%;
+  }
+  .standar-listing-container.invert-dispo .standar-listing-list-wrapper {
+    width: 100%;
+  }
+  .standar-listing-list-wrapper .image-container {
+    height: auto;
+  }
+  .standar-listing-list-wrapper .image-container img {
+    height: auto;
+    width: 100%;
   }
   .standar-listing-text-wrapper {
     width: 100%;
