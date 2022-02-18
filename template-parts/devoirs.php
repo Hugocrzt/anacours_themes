@@ -11,7 +11,7 @@ get_header(); ?>
             <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
-						<h1><span class="split-color-text">Sortie d'école</span> et devoirs</h1>
+						<h1><span class="split-color-text">Sortie d'école</span> & devoirs</h1>
 					</div>
 					<h2 class="pillier-sous-titre">Un service de garde "ludo-éducative"</h2>
 					<p>Pour les enfants scolarisés en maternelle et primaire, Anacours propose un service de garde périscolaire « ludo-éducative » afin d’enrichir la personnalité et l’épanouissement des enfants (jusqu’à 3 enfants maximum). Vous avez ainsi l’assurance de voir votre enfant encadré par un intervenant de confiance.</p>

@@ -87,7 +87,7 @@ get_header(); ?>
                 <h2><span class="split-color-text">Nous recrutons</span> aussi des :</h2>
                 <div class="recrutement-post-wrapper">
                     <div class="recrutment-post-item">
-                        <h3>Intervenant sortie d'école et devoirs</h3>
+                        <h3>Intervenant sortie d'école & devoirs</h3>
                         <p>Vous souhaitez garder des enfants ? Vous êtes une personne responsable dotée d’une expérience pédagogique dans la garde d’enfants. Vous aurez à prendre en charge un enfant de la sortie d’école jusqu’au retour des parents. Vous êtes titulaire d’un Baccalauréat ou d’un diplôme spécialisé dans la petite enfance ? Rejoignez notre équipe.</p>
                         <div class="recrutment-post-cta">
                             <a class="cta-purple" href="#">Postuler</a>
