@@ -11,13 +11,17 @@ get_header(); ?>
             <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
-						<h1>Cours Particuliers <span class="split-color-text">de mathématique</span></h1>
+						<h1>
+							<?php the_field( 'landing_titre' ); ?>
+						</h1>
 					</div>
-					<h2 class="pillier-sous-titre">Un accompagnement sur-mesure</h2>
-					<p>Les mathématiques font partie des matières dites générales qui comptent beaucoup tout au long de la scolarité. Nos élèves qui prennent des cours ont souvent besoin de revoir les notions mal assimilées ou de s’entrainer par des exercices en vue d’un examen, concours... Chez Anacours, nous accompagnons tous les élèves qui en ressentent le besoin avec un objectif : <b>apporter une solution sur-mesure.<b></p>
+					<h2 class="pillier-sous-titre"><?php the_field( 'landing_sous-titre' ); ?></h2>
+					<p><?php the_field( 'landing_paragraphe' ); ?></p>
 					<a class="cta-purple" href="#">Commencer dès maintenant</a>
 				</div>
-				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/element5-digital-7K_agbqPqYo-unsplash-scaled.jpg" alt="">
+				<?php $Landing_Image = get_field('landing_image'); if( $Landing_Image ): ?>
+				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo $Landing_Image['url']; ?>" alt="">
+				<?php endif; ?>
 			</div>
         </section>
         <section>
@@ -30,7 +34,7 @@ get_header(); ?>
 						</p>
 						<div class="notre-plus-block">
 							<p>Notre plus</p>
-							<p>Pour les jeunes Anacours propose une formule Kids initiation pour s'initier de façon ludique à l'anglais.</p>
+							<p><?php the_field( 'notre_plus_pragraphe' ); ?></p>
 						</div>
 					</div>
 					<div class="column-two">
@@ -69,13 +73,15 @@ get_header(); ?>
 		<section>
 			<div class="explain-standard-container">
 				<div class="explain-standard-text-wrapper">
-					<h2>Nos stages intensifs <span class="split-color-text">de mathématique</span></h2>
+					<h2><?php the_field( 'titre_stages_intensifs' ); ?></h2>
 					<p>Pendant les vacances à domicile ou en agence des stages intensifs de 10h de cours pour se renforcer sur la matière sont également proposés.</p>
 					<a class="cta-yellow" href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/">En savoir plus</a>
 				</div>
 				<div class="explain-standard-image-wrapper">
 					<div>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/architecture-big-ben-bridge-34632-scaled.jpg" alt="">
+						<?php $Stages_Image = get_field('image_stages_intensifs'); if( $Stages_Image ): ?>
+						<img src="<?php echo $Stages_Image['url']; ?>" alt="">
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
@@ -307,19 +313,19 @@ get_header(); ?>
 				<div class="wrappertwo-bandeau-matiere">
 					<div class="matiere-grid">
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
 								<p>Mathématique</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-francais/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-francais.svg" alt="">
 								<p>Francais</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-physique-chimie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-physique.svg" alt="">
 								<p>Physique-chimie</p>
 							</a>
@@ -331,31 +337,31 @@ get_header(); ?>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-svt/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-svt.svg" alt="">
 								<p>SVT</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
 								<p>Economie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-aide-devoirs.svg" alt="">
 								<p>Aide aux devoirs</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-allemand/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-allemand.svg" alt="">
 								<p>Allemand</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-espagnol/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-espagnol.svg" alt="">
 								<p>Espagnol</p>
 							</a>

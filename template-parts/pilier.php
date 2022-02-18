@@ -35,19 +35,19 @@ get_header(); ?>
 				<div class="wrappertwo-bandeau-matiere">
 					<div class="matiere-grid">
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
 								<p>Mathématique</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-francais/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-francais.svg" alt="">
 								<p>Francais</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-physique-chimie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-physique.svg" alt="">
 								<p>Physique-chimie</p>
 							</a>
@@ -59,31 +59,31 @@ get_header(); ?>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-svt/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-svt.svg" alt="">
 								<p>SVT</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
 								<p>Economie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-aide-devoirs.svg" alt="">
 								<p>Aide aux devoirs</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-allemand/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-allemand.svg" alt="">
 								<p>Allemand</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-espagnol/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-espagnol.svg" alt="">
 								<p>Espagnol</p>
 							</a>
