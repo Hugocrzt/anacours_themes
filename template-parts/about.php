@@ -204,6 +204,23 @@ get_header(); ?>
 				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/anacours/assets/src/img/553228-PK37K1-739.png" alt="">
 			</div>
 		</section>
+
+    <section>
+			<div class="explain-standard-container invert-dispo">
+        <div class="explain-standard-image-wrapper">
+          <div>
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_nos-engagements-qualite.jpg" alt="">
+          </div>
+        </div>
+				<div class="explain-standard-text-wrapper">
+					<h2><span class="split-color-text">Nous recrutons</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam voluptatum placeat minima ipsum asperiores nihil modi voluptate maxime vel qui eligendi officiis saepe pariatur itaque suscipit, accusantium recusandae delectus.</p>
+          <a class="cta-yellow" href="<?php echo esc_url( home_url( '/' ) ); ?>recrutement/">Recrutement enseignants</a>
+          <a class="cta-yellow" href="#">Recrutement RH</a>
+        </div>
+			</div>
+        </section>
+
 		<section>
 			<div class="home-magazine-container">
 				<h2>Le Magazine Anacours</h2>
