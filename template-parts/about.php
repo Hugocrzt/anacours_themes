@@ -12,7 +12,7 @@ get_header(); ?>
 				<div class="home-landing-bandeau-text-wrapper">
 					<h1><span class="split-color-text">Au plus proche </span>des familles et des élèves</h1>
           <h2 class="pillier-sous-titre">Anacours répond à votre demande de soutien scolaire partout en France</h2>
-					<p>Spécialiste du soutien scolaire depuis plus de 20 ans, Anacours fait partie des leaders du secteur en France. Présents aux côtés de 10 000 élèves chaque année, notre ambition : offrir à chaque enfant une solution éducative adaptée aux enjeux de la scolarité moderne du primaire jusqu’aux études supérieures à travers la formule de cours la plus adaptée :</p>
+					<p>Spécialiste du soutien scolaire depuis plus de 20 ans, Anacours fait partie des leaders du secteur en France. Présents aux côtés de&nbsp;12&nbsp;000 élèves chaque année. Notre ambition : offrir à chaque enfant une solution éducative adaptée aux enjeux de la scolarité moderne du primaire jusqu’aux études supérieures à travers la formule de cours la plus adaptée :</p>
 					<div class="tophorizontal-landing-ctas-niveau-adaptation">
 						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
 							Cours particuliers

@@ -11,8 +11,9 @@ get_header(); ?>
             <div class="home-landing-bandeau about-adaptation agence-adaptation">
 				<div class="home-landing-bandeau-text-wrapper">
 					<h1>Le soutien scolaire Anacours <span class="split-color-text">à Nice</span></h1>
-					<h2 class="lower-title">Anacours répond à votre demande de soutien scolaire partout en France</h2>
-					<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore.</p>
+					<h2 class="lower-title subtitle-agence">Anacours répond à votre demande de soutien scolaire partout en France</h2>
+					<p>Vous souhaitez prendre des cours particuliers à {{Ville}} et sa région, vous inscrire à un de nos stages Intensifs en petits groupes durant les vacances ?<br>
+          Contactez votre agence Anacours.</p>
 				</div>
 				<img class="home-landing-background-image" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/Agence-Anacours-saint-maur-ext-1.jpg" alt="">
 			</div>
@@ -24,7 +25,13 @@ get_header(); ?>
                         <div class="explain-standard-text-inter-col0ne">
                             <h3>Adresse</h3>
                             <p>15 Rue Delile</br>06000 Nice</p>
-                            <h3>Téléphone</h3>
+                            <div style="display:flex; flex-direction:row;align-items: baseline;">
+                            <div style="width:10%; height:10%; margin-right: 10px;">
+
+                              <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/icons8-marqueur-96.png" alt="">
+                            </div>
+                              <h3>Téléphone</h3>
+                            </div>
                             <p>09 72 60 52 52</p>
                         </div>
                         <div class="explain-standard-text-inter-colTwo">
