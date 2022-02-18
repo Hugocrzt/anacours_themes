@@ -10,7 +10,8 @@ get_header(); ?>
 		<section>
             <div class="home-landing-bandeau about-adaptation">
 				<div class="home-landing-bandeau-text-wrapper">
-					<h1><span class="split-color-text">Une solution sur mesure</span>, adaptée aux besoins de chacun</h1>
+					<h1><span class="split-color-text">Au plus proche </span>des familles et des élèves</h1>
+          <h2 class="pillier-sous-titre">Anacours répond à votre demande de soutien scolaire partout en France</h2>
 					<p>Spécialiste du soutien scolaire depuis plus de 20 ans, Anacours fait partie des leaders du secteur en France. Présents aux côtés de 10 000 élèves chaque année, notre ambition : offrir à chaque enfant une solution éducative adaptée aux enjeux de la scolarité moderne du primaire jusqu’aux études supérieures à travers la formule de cours la plus adaptée :</p>
 					<div class="tophorizontal-landing-ctas-niveau-adaptation">
 						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers/">
@@ -26,7 +27,9 @@ get_header(); ?>
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 						</a>
 					</div>
-				</div>
+          <p id="about-landing-subtext-2">Notre présence via notre vaste réseau d'agences locales, nous permet d'être au plus près de l'environnement scolaire de nos familles avec des cours partout en France.</p>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="cta-yellow">Retrouvez l'agence la plus proche de chez vous</a>
+        </div>
 				<img class="home-landing-background-image" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_des-solutions-sur-mesure.jpg" alt="">
 			</div>
         </section>
