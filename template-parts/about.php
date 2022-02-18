@@ -36,7 +36,7 @@ get_header(); ?>
         <section>
 			<div class="explain-standard-container invert-dispo">
 				<div class="explain-standard-text-wrapper">
-					<h2>Notre philosophie : <span class="split-color-text">le tandem</span> gagnant "elève-enseignant"</h2>
+					<h2 class="about-philosophie">Notre philosophie : <span class="split-color-text">le tandem</span> gagnant "elève-enseignant"</h2>
 					<p>Enfant, chacun a vécu au moins une fois cette expérience : la rencontre avec un maître, une institutrice ou un professeur “différent”. Chez Anacours nous pensons que la qualité de l’ajustement du tandem élève/professeur est déterminante dans l’efficacité d’un cours à domicile, nous avons placé la constitution de ce tandem gagnant au cœur de notre dispositif éducatif.</p>
 				</div>
 				<div class="explain-standard-image-wrapper">
@@ -219,7 +219,7 @@ get_header(); ?>
 					<h2><span class="split-color-text">Nous recrutons</h2>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam voluptatum placeat minima ipsum asperiores nihil modi voluptate maxime vel qui eligendi officiis saepe pariatur itaque suscipit, accusantium recusandae delectus.</p>
           <a class="cta-yellow" href="<?php echo esc_url( home_url( '/' ) ); ?>recrutement/">Recrutement enseignants</a>
-          <a class="cta-yellow" href="#">Recrutement RH</a>
+          <a class="cta-yellow recrutement-rh" href="#">Recrutement RH</a>
         </div>
 			</div>
         </section>
