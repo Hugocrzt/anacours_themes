@@ -10,8 +10,8 @@ get_header(); ?>
 		<section>
             <div class="home-landing-bandeau about-adaptation agence-adaptation">
 				<div class="home-landing-bandeau-text-wrapper">
-					<h1>Le soutient scolaire Anacours <span class="split-color-text">à Nice</span></h1>
-					<h2 class="lower-title">Anacours répond à votre demande de soutient scolaire partout en France</h2>
+					<h1>Le soutien scolaire Anacours <span class="split-color-text">à Nice</span></h1>
+					<h2 class="lower-title">Anacours répond à votre demande de soutien scolaire partout en France</h2>
 					<p>Verum ad istam omnem orationem brevis est defensio. Nam quoad aetas M. Caeli dare potuit isti suspicioni locum, fuit primum ipsius pudore.</p>
 				</div>
 				<img class="home-landing-background-image" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/Agence-Anacours-saint-maur-ext-1.jpg" alt="">

@@ -1,6 +1,9 @@
 .lower-title {
   text-transform: lowercase;
 }
+.subtitle-agence::first-letter {
+  text-transform: uppercase;
+}
 .home-landing-bandeau.about-adaptation.agence-adaptation h1 {
   margin: 0 0 0px 0;
 }

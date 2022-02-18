@@ -19,6 +19,21 @@
   padding: 100px 7.5%;
   background-color: #f4f7ff;
 }
+
+.logo-texte-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.about-ul {
+  list-style-image: url(../img/icons8-checked-32.png);
+}
+.about-ul li {
+  font-size: 1.2rem;
+      font-family: "Texta";
+    font-weight: 400;
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   .home-landing-bandeau.about-adaptation .home-landing-bandeau-text-wrapper p {
     margin-top: 0;
