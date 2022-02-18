@@ -36,3 +36,5 @@ body {
     overflow-x: hidden;
   }
 }
+@media (min-width: 1600px) {
+}

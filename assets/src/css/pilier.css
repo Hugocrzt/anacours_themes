@@ -71,7 +71,7 @@
   position: relative;
   width: 90%;
   border-radius: 20px;
-  border: 2px dashed #4251ff;
+  border: 1px dashed #4251ff;
   padding: 25px;
   margin-top: 50px;
 }
@@ -79,11 +79,11 @@
   position: absolute;
   top: 0;
   background-color: #4251ff;
-  padding: 5px 10px;
+  padding: 2.5px 15px;
   border-radius: 50px;
   color: white;
   transform: translateY(-50%);
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .wrappertwo-bandeau-matiere {
   position: relative;
@@ -206,9 +206,9 @@
 }
 .slider-container-avis-enseignants {
   width: 80%;
-  border: dashed #4251ff 2px;
+  border: dashed #4251ff 1px;
   border-radius: 20px;
-  padding: 5% 10%;
+  padding: 5%;
   display: block;
   margin-top: 50px;
   position: relative;
@@ -218,8 +218,8 @@
   position: absolute;
   background: #fed000;
   border-radius: 20px;
-  padding: 2.5px 10px;
-  font-size: 0.8rem;
+  padding: 2.5px 15px;
+  font-size: 1rem;
   top: 0;
   left: 15px;
   transform: translateY(-50%);
@@ -257,6 +257,7 @@
   font-family: "Texta";
   font-weight: 600;
   line-height: 1.5em;
+  text-align: center;
 }
 .avis-enseignants-comment-container p {
   margin: auto !important;

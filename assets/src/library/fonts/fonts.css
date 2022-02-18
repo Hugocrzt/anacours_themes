@@ -19,6 +19,16 @@
     url("Texta/TextaNarrow-Bold.woff") format("woff");
   font-display: swap;
 }
+/* Heavy */
+@font-face {
+  font-family: "Texta";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Texta Heavy"), local("Texta_Heavy"),
+    url("Texta/Latinotype-Texta-Heavy.woff2") format("woff2"),
+    url("Texta/Latinotype-Texta-Heavy.woff") format("woff");
+  font-display: swap;
+}
 /* Black */
 @font-face {
   font-family: "Texta";

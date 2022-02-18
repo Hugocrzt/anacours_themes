@@ -81,8 +81,11 @@ InitNewsSwipper();
 
 function InitNewsSwipperTwo() {
   const swiperTwo = new Swiper(".swiper-two", {
-    loop: false,
+    loop: true,
     speed: 1000,
+    /*autoplay: {
+      delay: 5000,
+    },*/
     slidesPerView: "1",
     spaceBetween: 50,
     keyboard: {
@@ -90,6 +93,7 @@ function InitNewsSwipperTwo() {
       onlyInViewport: false,
     },
     pagination: {
+      clickable: true,
       el: ".swiper-pagination",
       type: "bullets",
     },

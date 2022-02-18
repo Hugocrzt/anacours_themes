@@ -7577,8 +7577,12 @@ InitNewsSwipper();
 
 function InitNewsSwipperTwo() {
   var swiperTwo = new _library_js_swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_0___default.a(".swiper-two", {
-    loop: false,
+    loop: true,
     speed: 1000,
+
+    /*autoplay: {
+      delay: 5000,
+    },*/
     slidesPerView: "1",
     spaceBetween: 50,
     keyboard: {
@@ -7586,6 +7590,7 @@ function InitNewsSwipperTwo() {
       onlyInViewport: false
     },
     pagination: {
+      clickable: true,
       el: ".swiper-pagination",
       type: "bullets"
     }

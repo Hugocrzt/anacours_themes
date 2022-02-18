@@ -161,6 +161,18 @@
   padding-bottom: 75px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.247);
 }
+.image-advantage-container {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  margin: 50px auto;
+}
+.image-advantage-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media (min-width: 768px) and (max-width: 1023px) {
   .english-advantage-container {
     margin: 75px auto;
