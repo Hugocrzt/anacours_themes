@@ -14,9 +14,8 @@ h2 {
   font-size: 3vw;
   font-family: "Texta";
   text-transform: uppercase;
-  font-weight: 900;
-  /* font-weight 800 & 700 ne changent rien */
-  /* font-weight: 600; */
+  /* font-weight: 900; */
+  font-weight: 700;
   line-height: 1.05em;
   color: #323f48;
 }
@@ -758,6 +757,31 @@ img {
 .home-magazine-wrapper .swiper-wrapper .swiper-slide .news-tag a.bac-tag {
   background-color: #fce5cd;
 }
+/* collège brevet primaire lycée bac */
+a.parcours-scolaire-tag {
+  background-color: #fce5cd;
+}
+a.parcours-scolaire-tag:hover {
+  background-color: #FFF0E5;
+}
+/* révisions méthodologie compréhension apprentissage actualités cours paticuliers,
+ cours en ligne, stages intensifs langues enseignants */
+a.apprendre-efficacement-tag {
+  background-color: #cceeff;
+}
+a.apprendre-efficacement-tag:hover {
+  background-color: #8dd5f8;
+}
+/* parcoursup postbac coaching */
+a.orientation-tag {
+  background-color: #FDE7EE;
+}
+
+/*neurodiversité bien etre éducation sommeil nutrition arts loisirs sport  */
+a.bien-etre-tag {
+  background-color: #EFFAF1;
+}
+
 .prev-ctrl {
   z-index: 99;
   top: 0;

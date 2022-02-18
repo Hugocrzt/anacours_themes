@@ -337,8 +337,8 @@
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/12970-scaled.jpg" alt="">
 								</a>
 								<div class="news-tag">
-									<a class='apprentissage-tag' href="#">Apprentissage</a>
-									<a class='methodologie-tag' href="#">Méthodologie</a>
+									<a class='apprendre-efficacement-tag' href="#">Apprentissage</a>
+									<a class='apprendre-efficacement-tag' href="#">Méthodologie</a>
 								</div>
 								<h3>Se préparer efficacement à une dictée</h3>
 								<p>Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, …</p>
@@ -353,9 +353,9 @@
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/14582-scaled.jpg" alt="">
 								</a>
 								<div class="news-tag">
-									<a class='apprentissage-tag' href="#">Apprentissage</a>
-									<a class='methodologie-tag' href="#">Méthodologie</a>
-									<a class='revision-tag' href="#">Révisions</a>
+									<a class='apprendre-efficacement-tag' href="#">Apprentissage</a>
+									<a class='apprendre-efficacement-tag' href="#">Méthodologie</a>
+									<a class='apprendre-efficacement-tag' href="#">Révisions</a>
 								</div>
 								<h3>Travail scolaire : aider son enfant à devenir autonome</h3>
 								<p>S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie …</p>
@@ -370,8 +370,8 @@
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/1837-scaled.jpg" alt="">
 								</a>
 								<div class="news-tag">
-									<a class='bac-tag' href="#">Baccalauréat</a>
-									<a class='revision-tag' href="#">Révisions</a>
+									<a class='parcours-scolaire-tag' href="#">Baccalauréat</a>
+									<a class='apprendre-efficacement-tag' href="#">Révisions</a>
 								</div>
 								<h3>A quel moment commencer ses révisions pour le bac ?</h3>
 								<p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. …</p>

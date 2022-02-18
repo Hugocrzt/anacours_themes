@@ -127,6 +127,7 @@ p {
 .bottom-header-visible-container a,
 p {
   margin: 0;
+  margin-bottom: 50px;
   padding: 0;
   text-decoration: none;
   color: black;

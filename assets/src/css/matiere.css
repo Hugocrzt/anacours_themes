@@ -126,16 +126,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
 }
 .english-advantage-arguments-space .english-advantage-argument-item {
   position: relative;
-  width: 20%;
+  width: 21%;
 }
 .english-advantage-arguments-space .english-advantage-argument-item img {
   width: 75%;
   position: relative;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
 }
 .tophorizontal-landing-container {
   position: relative;
