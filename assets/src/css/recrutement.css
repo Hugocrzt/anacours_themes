@@ -36,6 +36,9 @@
   display: flex;
   flex-direction: column;
 }
+.recrutement-types-profils-item p {
+  margin-bottom: 50px;
+}
 .recrutement-types-profils-item-image-wrapper {
   position: relative;
   width: 100%;
@@ -181,6 +184,9 @@
   .recrutement-types-profils-item {
     width: 100%;
     margin-bottom: 50px;
+  }
+  .recrutement-types-profils-item p{
+    margin-bottom: 30px;
   }
   .recrutement-types-profils-container .cta-yellow {
     margin: 0px auto 100px 0;

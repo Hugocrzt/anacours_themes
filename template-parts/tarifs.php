@@ -70,31 +70,38 @@ get_header(); ?>
 					<div class="moyen-paiement-space">
 						<div class="moyen-paiement-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/ressources_01.png" alt="">
-							<p>Des ressources pédagogiques du CP à la Terminale et dans toutes les matières</p>
+							<p>Cartes de crédit</p>
 						</div>
 						<div class="moyen-paiement-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/outils_2.png" alt="">
-							<p>Des fiches de cours, des exercices interactifs, des annales corrigées, des quiz d'évaluation...</p>
+							<p>Prélèvement automatique</p>
 						</div>
 						<div class="moyen-paiement-item">
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/planning_01.png" alt="">
-							<p>Un planning de révision personnalisable pour suivre sa progression</p>
+							<p>Cesu ou web-cesu préfinancés</p>
 						</div>
 					</div>
 
           <div class="moyen-paiement-other">
             <div class="row">
-              <div class="rectangle"></div>
+              <div class="rectangle">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2022/02/leone-venter-VieM9BdZKFo-unsplash-scaled-1.jpeg" alt="">
+              </div>
               <div>
-                <p>du texte du texte </p>
-                <p>du texte du texte </p>
+                <p class="paiement-texte"><span class="split-color-text">La carte famille nombreuse</span><br>
+                    Anacours offre des réductions aux détenteurs de la carte familles nombreuses
+               </p>
+
               </div>
             </div>
             <div class="row">
-              <div class="rectangle"></div>
+              <div class="rectangle">
+                <img src="<?php echo esc_url( home_url( '/' ) ); ?>/wp-content/uploads/2022/02/leone-venter-VieM9BdZKFo-unsplash-scaled-1.jpeg" alt="">
+              </div>
               <div>
-                <p>du texte du texte </p>
-                <p>du texte du texte </p>
+                <p class="paiement-texte"><span class="split-color-text">Le Chèque Emploi Service Universel (CESU)</span><br>
+              En tant qu'organisme agrée, Anacours accepte le règlement des heures de cours et des frais d'inscription par CESU ou WEB-CESU préfinancés.  </p>
+
               </div>
             </div>
           </div>

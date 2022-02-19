@@ -203,6 +203,7 @@ img {
   padding: 0 7.5%;
   transition: all 0.3s;
   margin: 25px 0 10px 0;
+  color:black;
 }
 .home-solution-box:hover h3 {
   color: white;
@@ -289,6 +290,21 @@ img {
 .bandeau-calltoaction-image img {
   position: absolute;
   bottom: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
+.bandeau-calltoaction-image-sac {
+  position: absolute;
+  width: 20%;
+  height: 135%;
+  overflow: hidden;
+  bottom: 0;
+  left: 5%;
+}
+.bandeau-calltoaction-image-sac img {
+  position: absolute;
+  bottom: -20px;
   left: 0;
   width: auto;
   height: 100%;
@@ -414,7 +430,7 @@ img {
   position: relative;
   width: 65%;
   margin: auto;
-  height: 60vh;
+  /* height: 70vh; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -713,7 +729,7 @@ img {
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide {
   position: relative;
-  height: 55vh;
+  height: auto;
   width: 23.01vw !important;
   display: flex;
   flex-direction: column;
@@ -728,6 +744,9 @@ img {
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide .news-tag {
   margin-top: 20px;
+}
+.news-intro-text {
+  margin-bottom: 50px;
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide .news-tag a {
   padding: 5px 10px;
@@ -1203,7 +1222,7 @@ p {
     width: 70% !important;
     height: auto !important;
     z-index: 1 !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 20px !important;
     right: auto !important;
   }
   .home-landing-bandeau-text-wrapper {
@@ -1311,6 +1330,9 @@ p {
   }
   .bandeau-calltoaction-image {
     display: none;
+  }
+  .bandeau-calltoaction-image-sac img {
+    display:none;
   }
   .bandeau-calltoaction-text {
     width: 85%;
@@ -1458,7 +1480,7 @@ p {
     display: none;
   }
   .home-magazine-wrapper .swiper-wrapper .swiper-slide {
-    height: 100vh;
+    height: 80vh;
   }
   .home-magazine-wrapper {
     width: 80%;
