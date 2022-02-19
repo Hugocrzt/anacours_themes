@@ -752,7 +752,10 @@ p {
     width: 100%;
     margin-right: 0;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+  }
+  .footer-column-nav p {
+    margin-bottom:5px;
   }
   .footer-column-nav .magazine-adaptation img {
     width: 7% !important;
