@@ -190,7 +190,7 @@
 		<section>
 			<div class="bandeau-calltoaction-container">
 				<div class="bandeau-calltoaction-wrapper">
-					<div class="bandeau-calltoaction-image">
+					<div class="bandeau-calltoaction-image-sac">
 						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/sac-a-dos@2x.png" alt="">
 					</div>
 					<div class="bandeau-calltoaction-text">
@@ -341,7 +341,7 @@
 									<a class='apprendre-efficacement-tag' href="#">Méthodologie</a>
 								</div>
 								<h3>Se préparer efficacement à une dictée</h3>
-								<p>Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, …</p>
+								<p class="news-intro-text">Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, …</p>
 								<!-- <p>Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, il est indispensable de pouvoir l’aborder sereinement et donc d’y être bien préparé. Voici quelques pistes et conseils pour affronter cet exercice en toute …</p> -->
 								<a class="transparent-btn" href="#">
 									Découvrir
@@ -358,7 +358,7 @@
 									<a class='apprendre-efficacement-tag' href="#">Révisions</a>
 								</div>
 								<h3>Travail scolaire : aider son enfant à devenir autonome</h3>
-								<p>S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie …</p>
+								<p class="news-intro-text">S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie …</p>
 								<!-- <p>S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie pour le travail scolaire doit se faire. Alors comment aider au mieux son enfant pour qu’il apprenne à travailler seul ? Comment aider son enfant à …</p> -->
 								<a class="transparent-btn" href="#">
 									Découvrir
@@ -374,7 +374,7 @@
 									<a class='apprendre-efficacement-tag' href="#">Révisions</a>
 								</div>
 								<h3>A quel moment commencer ses révisions pour le bac ?</h3>
-								<p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. …</p>
+								<p class="news-intro-text">Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. …</p>
 								<!-- <p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. Les lycéens doivent ainsi se préparer en amont pour réussir au mieux. Face aux élèves qui s’inquiètent de savoir quel est le meilleur moment pour …</p> -->
 								<a class="transparent-btn" href="#">
 									Découvrir

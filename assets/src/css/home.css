@@ -293,6 +293,21 @@ img {
   width: auto;
   height: 100%;
 }
+.bandeau-calltoaction-image-sac {
+  position: absolute;
+  width: 20%;
+  height: 135%;
+  overflow: hidden;
+  bottom: 0;
+  left: 5%;
+}
+.bandeau-calltoaction-image-sac img {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
 .bandeau-calltoaction-text {
   margin-top: 40px;
   width: 25%;
@@ -713,7 +728,7 @@ img {
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide {
   position: relative;
-  height: 55vh;
+  height: auto;
   width: 23.01vw !important;
   display: flex;
   flex-direction: column;
@@ -728,6 +743,9 @@ img {
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide .news-tag {
   margin-top: 20px;
+}
+.news-intro-text {
+  margin-bottom: 50px;
 }
 .home-magazine-wrapper .swiper-wrapper .swiper-slide .news-tag a {
   padding: 5px 10px;
