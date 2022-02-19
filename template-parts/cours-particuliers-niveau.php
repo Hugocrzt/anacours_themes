@@ -378,8 +378,8 @@ get_header(); ?>
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/1837-scaled.jpg" alt="">
 								</a>
 								<div class="news-tag">
-									<a class='bac-tag' href="#">Baccalauréat</a>
-									<a class='revision-tag' href="#">Révisions</a>
+									<a class='parcours-scolaire-tag' href="#">Baccalauréat</a>
+									<a class='apprendre-efficacement-tag' href="#">Révisions</a>
 								</div>
 								<h3>A quel moment commencer ses révisions pour le bac ?</h3>
 								<p class="news-intro-text">Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent.…</p>

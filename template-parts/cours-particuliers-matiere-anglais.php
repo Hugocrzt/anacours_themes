@@ -351,7 +351,7 @@ get_header(); ?>
 									<a class='revision-tag' href="#">Révisions</a>
 								</div>
 								<h3>A quel moment commencer ses révisions pour le bac ?</h3>
-								<p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. Les lycéens doivent ainsi se préparer en amont pour réussir au mieux. Face aux élèves qui s’inquiètent de savoir quel est le meilleur moment pour …</p>
+								<p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent.…</p>
 								<a class="transparent-btn" href="#">
 									Découvrir
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
