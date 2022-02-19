@@ -8,7 +8,7 @@ get_header(); ?>
 <div>
     <main>
 		<section>
-            <div class="home-landing-bandeau about-adaptation">
+            <div class="home-landing-bandeau about-adaptation ">
 				<div class="home-landing-bandeau-text-wrapper">
 					<h1><span class="split-color-text">Au plus proche </span>des familles et des élèves</h1>
           <h2 class="pillier-sous-titre">Anacours répond à votre demande de soutien scolaire partout en France</h2>
@@ -27,8 +27,8 @@ get_header(); ?>
 							<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 						</a>
 					</div>
-          <p id="about-landing-subtext-2">Notre présence via notre vaste réseau d'agences locales, nous permet d'être au plus près de l'environnement scolaire de nos familles avec des cours partout en France.</p>
-          <a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="cta-yellow">Retrouvez l'agence la plus proche de chez vous</a>
+          <!-- <p id="about-landing-subtext-2">Notre présence via notre vaste réseau d'agences locales, nous permet d'être au plus près de l'environnement scolaire de nos familles avec des cours partout en France.</p>
+          <a href="<?php echo esc_url( home_url( '/' ) ); ?>agence/" class="cta-yellow">Retrouvez l'agence la plus proche de chez vous</a> -->
         </div>
 				<img class="home-landing-background-image" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Qui-sommes-nous_des-solutions-sur-mesure.jpg" alt="">
 			</div>
@@ -65,8 +65,10 @@ get_header(); ?>
 					<h2><span class="split-color-text">Nos engagements</span> qualité</h2>
 					<p>Depuis toujours, la réussite de nos élèves est une priorité. C’est pourquoi, Anacours s’engage dans une démarche de qualité de service récompensée par la certification à la norme QUALICERT.</p>
           <div class="logo-texte-wrapper">
-            <div style="height:75px; width:75px;background-color:gray;margin-right:25px;">logo qualicert</div>
-              <h2 style="    font-size: 1.7rem;">titre qui permettra de raccourcir le texte juste en dessous</h2>
+            <div class="about-logo-container" >
+            <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/02/leone-venter-VieM9BdZKFo-unsplash-scaled-1.jpeg" alt="">
+          </div>
+              <h2 class="engagement-qualite-title" >titre qui permettra de raccourcir le texte juste en dessous</h2>
           </div>
           <p>Au cours de l'audit  réalisé par un organisme indépendant SGS-ICS, Anacours a satisfait à toutes les caractéristiques composant le référentiel "Prestation de service à la personne " et notamment les points suivants :</p>
           <div>

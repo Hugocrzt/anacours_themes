@@ -80,7 +80,9 @@ get_header(); ?>
                         <p>Seniors et retraités, souhaitant transmettre leur savoir </p>
                     </div>
                 </div>
-                <a class="cta-yellow" href="#">Postuler</a>
+                <div>
+                  <a class="cta-yellow" href="#">Postuler</a>
+                </div>
         </section>
         <section>
             <div class="recrutement-post-container">
@@ -212,7 +214,7 @@ get_header(); ?>
 									<a class='methodologie-tag' href="#">Méthodologie</a>
 								</div>
 								<h3>Se préparer efficacement à une dictée</h3>
-								<p>Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, il est indispensable de pouvoir l’aborder sereinement et donc d’y être bien préparé. Voici quelques pistes et conseils pour affronter cet exercice en toute …</p>
+								<p class="news-intro-text">Souvent redoutée des élèves, la dictée est pourtant un excellent outil d’apprentissage de la langue. Pour en tirer tous les bénéfices, …</p>
 								<a class="transparent-btn" href="#">
 									Découvrir
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
@@ -228,7 +230,7 @@ get_header(); ?>
 									<a class='revision-tag' href="#">Révisions</a>
 								</div>
 								<h3>Travail scolaire : aider son enfant à devenir autonome</h3>
-								<p>S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie pour le travail scolaire doit se faire. Alors comment aider au mieux son enfant pour qu’il apprenne à travailler seul ? Comment aider son enfant à …</p>
+								<p class="news-intro-text">S’il est indispensable d’encadrer et apporter son aide pour les devoirs en primaire, petit à petit, l’acquisition de l’autonomie …</p>
 								<a class="transparent-btn" href="#">
 									Découvrir
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
@@ -243,7 +245,7 @@ get_header(); ?>
 									<a class='revision-tag' href="#">Révisions</a>
 								</div>
 								<h3>A quel moment commencer ses révisions pour le bac ?</h3>
-								<p>Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. Les lycéens doivent ainsi se préparer en amont pour réussir au mieux. Face aux élèves qui s’inquiètent de savoir quel est le meilleur moment pour …</p>
+								<p class="news-intro-text">Même si le nouveau baccalauréat fait la part belle au contrôle continu, un certain nombre d’épreuves écrites et orales demeurent. …</p>
 								<a class="transparent-btn" href="#">
 									Découvrir
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
