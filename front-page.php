@@ -75,7 +75,6 @@
 				</div>
 			</div>
 		</section>
-
 		<section>
 			<div class="bandeau-calltoaction-container">
 				<div class="bandeau-calltoaction-wrapper">

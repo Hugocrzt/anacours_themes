@@ -306,16 +306,16 @@ get_header(); ?>
 			<div class="container-bandeau-matiere">
 				<div class="wrapperone-bandeau-matiere">
 					<div>
-						<h2>Les cours particuliers <span class="split-color-text">dans une matière</span></h2>
-						<p>Le soutien scolaire en primaire, c’est l’assurance de voir votre enfant encadré à domicile dans une matière spécifique (mathématiques, français, anglais). L’enseignant a pour mission de revoir les leçons et retravailler en profondeur chaque chapitre au travers d’exercices. Il accompagne ainsi votre enfant dans l’acquisition de ses connaissances et lui permettra de garder confiance en lui.</p>
+						<h2><?php the_field( 'titre_section_4' ); ?></h2>
+						<p><?php the_field( 'paragraphe_section_4' ); ?></p>
 					</div>
 				</div>
 				<div class="wrappertwo-bandeau-matiere">
 					<div class="matiere-grid">
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
-								<p>Mathématique</p>
+								<p>Mathématiques</p>
 							</a>
 						</div>
 						<div class="matiere-block">
@@ -345,7 +345,7 @@ get_header(); ?>
 						<div class="matiere-block">
 							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
-								<p>Economie</p>
+								<p>Économie</p>
 							</a>
 						</div>
 						<div class="matiere-block">

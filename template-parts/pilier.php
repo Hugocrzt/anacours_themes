@@ -8,7 +8,7 @@ get_header(); ?>
 <div>
     <main>
 		<section>
-      <div class="home-landing-bandeau pilier-landing-bandeau">
+			<div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
 						<h1>Cours particuliers <span class="split-color-text">à domicile</span></h1>
@@ -19,17 +19,17 @@ get_header(); ?>
 				</div>
 				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/pexels-gabby-k-6237928-scaled.jpg" alt="">
 			</div>
-    </section>
+		</section>
         <section>
 			<div class="container-bandeau-matiere">
 				<div class="wrapperone-bandeau-matiere">
 					<div>
 						<h2>Comprendre <span class="split-color-text">les besoins de chaque élève</span> pour une solution adaptée</h2>
-						<p>Nos équipes pédagogiques répondent aux demandent dans toutes les matières et pour tous les niveaux en analysant les besoins individuels de chaque élève afin de proposer la solution de cours la plus adaptée. Votre conseiller pédagogique fera régulièrement le point pour s’assurer du bon déroulement des séances et de la progression de l’élève.</p>
+						<p>Nos équipes pédagogiques répondent aux demandes dans toutes les matières et pour tous les niveaux en analysant les besoins individuels de chaque élève afin de proposer la solution de cours la plus adaptée. Votre conseiller pédagogique fera régulièrement le point pour s’assurer du bon déroulement des séances et de la progression de l’élève.</p>
 					</div>
 					<div class="notre-plus-block">
 						<p>Notre plus</p>
-						<p>Notre plus : pas d’engagement avant le premier cours et la rencontre avec l’enseignant.</p>
+						<p>Pas d’engagement avant le premier cours et la rencontre avec l’enseignant.</p>
 					</div>
 				</div>
 				<div class="wrappertwo-bandeau-matiere">
@@ -37,7 +37,7 @@ get_header(); ?>
 						<div class="matiere-block">
 							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
-								<p>Mathématique</p>
+								<p>Mathématiques</p>
 							</a>
 						</div>
 						<div class="matiere-block">
@@ -67,7 +67,7 @@ get_header(); ?>
 						<div class="matiere-block">
 							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
-								<p>Economie</p>
+								<p>Économie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
@@ -89,6 +89,31 @@ get_header(); ?>
 							</a>
 						</div>
 					</div>
+				</div>
+			</div>
+        </section>
+		<section>
+			<div class="autre-accompagnement-container">
+				<h2>Découvrir nos autres formules d'accompagnement scolaire</h2>
+				<div class="autre-accompagnement-wrapper">
+					<div class="autre-accompagnement-image-block">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-en-ligne-pexels-artem-podrez-4492188@2x.jpg" alt="">
+					</div>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-en-ligne/" class="autre-accompagnement-text-block">
+						<h3>Cours en ligne</h3>
+						<p>La solution sur mesure pour réussir</p>
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
+					</a>
+				</div>
+				<div class="autre-accompagnement-wrapper">
+					<div class="autre-accompagnement-image-block">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/stages-intensifs-pexels-ivan-samkov-5676741@2x.jpg" alt="">
+					</div>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/" class="autre-accompagnement-text-block">
+						<h3>Stages Intensifs</h3>
+						<p>La solution sur mesure pour réussir</p>
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
+					</a>
 				</div>
 			</div>
         </section>
@@ -153,30 +178,23 @@ get_header(); ?>
 			</div>
 		</section>
 		<section>
-			<div class="autre-accompagnement-container without-border">
-				<h2>Découvrir nos autres formules d'accompagnement scolaire</h2>
-				<div class="autre-accompagnement-wrapper">
-					<div class="autre-accompagnement-image-block">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/cours-en-ligne-pexels-artem-podrez-4492188@2x.jpg" alt="">
+			<div class="bandeau-calltoaction-container">
+				<div class="bandeau-calltoaction-wrapper">
+					<div class="bandeau-calltoaction-image">
+						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/bandeau-fille-serree.png" alt="">
 					</div>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-en-ligne/" class="autre-accompagnement-text-block">
-						<h3>Cours en ligne</h3>
-						<p>La solution sur mesure pour réussir</p>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
-					</a>
-				</div>
-				<div class="autre-accompagnement-wrapper">
-					<div class="autre-accompagnement-image-block">
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/stages-intensifs-pexels-ivan-samkov-5676741@2x.jpg" alt="">
+					<div class="bandeau-calltoaction-text">
+						<h2>Découvrir la solution</h2>
+						<h2>qui correspond aux besoins<br>
+             de votre enfant.</h2>
 					</div>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs/" class="autre-accompagnement-text-block">
-						<h3>Stages Intensifs</h3>
-						<p>La solution sur mesure pour réussir</p>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
-					</a>
+					<div class="bandeau-calltoaction-btns">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>agences/">Trouver mon agence</a>
+						<a href="#">Obtenir mon tarif</a>
+					</div>
 				</div>
 			</div>
-        </section>
+		</section>
         <section>
 			<div class="home-map-container">
 				<h2><span class="split-color-text">40 Agences</span> en France</h2>

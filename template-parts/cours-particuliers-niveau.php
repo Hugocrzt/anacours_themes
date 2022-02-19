@@ -11,10 +11,10 @@ get_header(); ?>
             <div class="home-landing-bandeau pilier-landing-bandeau">
 				<div class="home-landing-bandeau-text-wrapper pilier-landing-adaptation">
 					<div class="home-landing-bandeau-title-container">
-						<h1>Cours Particuliers <span class="split-color-text">en Primaire</span></h1>
+						<h1><?php the_field( 'landing_titre' ); ?></h1>
 					</div>
-					<h2 class="pillier-sous-titre">La réussite de nos élèves est notre priorité</h2>
-					<p>La réussite à l’école se joue souvent dès les premières années et vous n’avez pas toujours le temps de vérifier si les leçons du jour sont apprises et les devoirs pour le lendemain effectués. Anacours vous propose plusieurs formules qui sauront l’accompagner dès l’école élémentaire dans ses premiers apprentissages : </p>
+					<h2 class="pillier-sous-titre"><?php the_field( 'landing_sous-titre' ); ?></h2>
+					<p><?php the_field( 'landing_paragraphe' ); ?></p>
 					<div class="tophorizontal-landing-ctas-niveau-adaptation">
 						<a class="transparent-btn niveau-adaptation" href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/">
 							Cours particuliers dans une matière
@@ -30,33 +30,35 @@ get_header(); ?>
 						</a>
 					</div>
 				</div>
-				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/pexels-julia-m-cameron-4144099-scaled.jpg" alt="">
+				<?php $Landing_Image = get_field('landing_image'); if( $Landing_Image ): ?>
+				<img class="home-landing-background-image pilier-landing-background-image-adaptation" src="<?php echo $Landing_Image['url']; ?>" alt="">
+				<?php endif; ?>
 			</div>
         </section>
 		<section>
 			<div class="container-bandeau-matiere">
 				<div class="wrapperone-bandeau-matiere">
 					<div>
-						<h2>Les cours particuliers <span class="split-color-text">dans une matière</span></h2>
-						<p>Le soutien scolaire en primaire, c’est l’assurance de voir votre enfant encadré à domicile dans une matière spécifique (mathématiques, français, anglais). L’enseignant a pour mission de revoir les leçons et retravailler en profondeur chaque chapitre au travers d’exercices. Il accompagne ainsi votre enfant dans l’acquisition de ses connaissances et lui permettra de garder confiance en lui.</p>
+						<h2><?php the_field( 'titre_section_2' ); ?></h2>
+						<p><?php the_field( 'paragraphe_section_2' ); ?></p>
 					</div>
 				</div>
 				<div class="wrappertwo-bandeau-matiere">
 					<div class="matiere-grid">
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-mathematiques'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
-								<p>Mathématique</p>
+								<p>Mathématiques</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-francais/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-francais.svg" alt="">
 								<p>Francais</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-physique-chimie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-physique.svg" alt="">
 								<p>Physique-chimie</p>
 							</a>
@@ -68,31 +70,31 @@ get_header(); ?>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-svt/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-svt.svg" alt="">
 								<p>SVT</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-economie/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
-								<p>Economie</p>
+								<p>Économie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-aide-devoirs.svg" alt="">
 								<p>Aide aux devoirs</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-allemand/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-allemand.svg" alt="">
 								<p>Allemand</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-anglais/'>
+							<a href='<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-espagnol/'>
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-espagnol.svg" alt="">
 								<p>Espagnol</p>
 							</a>
@@ -270,16 +272,18 @@ get_header(); ?>
 		<section>
 			<div class="explain-standard-container">
 				<div class="explain-standard-text-wrapper">
-					<h2>L'aide aux devoirs</h2>
-					<p>L’aide aux devoirs est la formule adaptée pour des besoins précis dans les matières principales. Un enseignant spécialement adapté aux élèves de cet âge, polyvalent dans l’ensemble des matières fondamentales, met en place le suivi régulier de votre enfant.</p>
+					<h2><?php the_field( 'titre_section_3' ); ?></h2>
+					<p><?php the_field( 'paragraphe_section_3' ); ?></p>
 					<div class="notre-plus-block">
 						<p>Notre plus</p>
-						<p>Notre plus  : Votre enseignant complète un cahier de suivi après chaque cours vous permettant de suivre pas à pas les progrès de votre enfant.</p>
+						<p><?php the_field( 'notre_plus_section_3' ); ?></p>
 					</div>
 				</div>
 				<div class="explain-standard-image-wrapper">
 					<div>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/pexels-artem-podrez-6951552-scaled.jpg" alt="">
+						<?php $Section3_Image = get_field('image_section_3'); if( $Section3_Image ): ?>
+						<img src="<?php echo $Section3_Image['url']; ?>" alt="">
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
@@ -287,17 +291,19 @@ get_header(); ?>
 		<section>
 			<div class="explain-standard-container invert-dispo">
 				<div class="explain-standard-text-wrapper">
-					<h2>Sortie d’école & devoirs</h2>
-					<p>Aller chercher votre enfant à l’école, vérifier que les leçons du jour sont apprises, superviser le travail à faire, préparer le cartable pour le lendemain... Anacours vous propose un service “sortie d’école & devoirs” pour avoir l’assurance de voir votre enfant encadré lors de son travail à la maison.  </p>
+					<h2><?php the_field( 'titre_section_4' ); ?></h2>
+					<p><?php the_field( 'paragraphe_section_4' ); ?></p>
 					<div class="notre-plus-block">
 						<p>Notre plus</p>
-						<p>Notre plus : vous choisissez la fréquence et les jours d’intervention selon vos besoins !</p>
+						<p><?php the_field( 'notre_plus_section_4' ); ?></p>
 					</div>
 					<a class="cta-yellow" href="#">Demander un devis</a>
 				</div>
 				<div class="explain-standard-image-wrapper">
 					<div>
-						<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2022/01/Sortie-d-ecole-et-devoirs.jpg" alt="">
+						<?php $Section4_Image = get_field('image_section_4'); if( $Section4_Image ): ?>
+						<img src="<?php echo $Section4_Image['url']; ?>" alt="">
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>

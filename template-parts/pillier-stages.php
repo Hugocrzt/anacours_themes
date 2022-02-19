@@ -59,55 +59,55 @@ get_header(); ?>
 					<h3>Matières et niveaux</h3>
 					<div class="matiere-grid">
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-mathematiques/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-maths.svg" alt="">
-								<p>Mathématique</p>
+								<p>Mathématiques</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-francais/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-francais.svg" alt="">
 								<p>Francais</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-physique-chimie/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-physique.svg" alt="">
 								<p>Physique-chimie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-anglais/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-anglais.svg" alt="">
 								<p>Anglais</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-svt/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-svt.svg" alt="">
 								<p>SVT</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-economie/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-economie.svg" alt="">
-								<p>Economie</p>
+								<p>Économie</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>sortie-decole-et-devoirs//">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-aide-devoirs.svg" alt="">
 								<p>Aide aux devoirs</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-allemand/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-allemand.svg" alt="">
 								<p>Allemand</p>
 							</a>
 						</div>
 						<div class="matiere-block">
-							<a href=#>
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-espagnol/">
 								<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-espagnol.svg" alt="">
 								<p>Espagnol</p>
 							</a>

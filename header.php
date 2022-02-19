@@ -127,25 +127,25 @@
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-primaire/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-college/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Collège</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-primaire/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-lycee/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Lycée</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-primaire/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-superieur/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Supérieur</p>
 								</a>
 							</li>
 							<li>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particulier-primaire/">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>cours-particuliers-adulte/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Adulte</p>
 								</a>
@@ -165,13 +165,13 @@
 						<p class="bottom-header-hidden-columntwo-title">Préparer un examen</p>
 						<ul>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-brevet/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Brevet</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-baccalaureat/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Baccalaureat</p>
 								</a>
@@ -182,31 +182,31 @@
 						<p class="bottom-header-hidden-columntwo-title">Par matières</p>
 						<ul>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-anglais/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Anglais</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-francais/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Français</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-physique-chimie/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Physique-chimie</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-mathematiques/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Mathématique</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>stages-intensifs-allemand/">
 									<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
 									<p>Allemand</p>
 								</a>
