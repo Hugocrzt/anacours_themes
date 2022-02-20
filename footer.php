@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="footer-column-cta">
-            <a href="#">Tarifs et conditions</a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>tarifs-conditions/">Tarifs et conditions</a>
             <a href="#">
                 <p>Anacours musique</p>
                 <img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/2021/12/icon-arrow-right.svg" alt="">
